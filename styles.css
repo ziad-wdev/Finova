@@ -718,6 +718,7 @@ h4 {
   text-align: center;
   text-decoration: none;
 }
+
 .btn-primary-full:hover {
   background: #3a80d2;
 }
@@ -948,6 +949,7 @@ h4 {
   color: var(--foreground);
   font-weight: 500;
 }
+
 .bullet-muted {
   color: var(--muted-foreground);
 }
@@ -1683,7 +1685,7 @@ h4 {
 
 .step-content ul {
   list-style: none;
-  margin: 0.25rem 0 0.5rem 0.25rem;
+  margin: 0.25rem 0 0.5rem 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
@@ -1705,7 +1707,7 @@ h4 {
 
 .pro-tips-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.75rem;
   margin-bottom: 1rem;
 }
@@ -1738,10 +1740,12 @@ h4 {
 
 /* Warning box */
 .warning-box {
+  position: relative;
   background: #fff7ed;
   border: 1px solid #fed7aa;
   border-radius: 0.75rem;
   padding: 1.5rem;
+  padding-left: 3.75rem;
 }
 
 .warning-inner {
@@ -1750,10 +1754,17 @@ h4 {
   gap: 0.75rem;
 }
 
+.warning-box svg {
+  position: absolute;
+  left: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .warning-box h3 {
   color: #7c2d12;
   margin-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .warning-box p {

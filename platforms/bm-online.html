@@ -93,351 +93,392 @@
     </div>
 
     <!-- Main Content -->
-    <div class="content-max">
-      <!-- Overview -->
-      <div class="content-section">
-        <div class="overview-box">
-          <div class="overview-header">
+    <main>
+      <div class="content-max">
+        <!-- Overview -->
+        <div class="content-section">
+          <div class="overview-box">
+            <div class="overview-header">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="16" x2="12" y2="12" />
+                <line x1="12" y1="8" x2="12.01" y2="8" />
+              </svg>
+              <h2>What is BM Online?</h2>
+            </div>
+            <p>
+              BM Online is Banque Misr's comprehensive digital banking platform that brings your entire bank into your
+              smartphone. As one of Egypt's oldest and largest banks, Banque Misr serves millions of customers, and BM
+              Online gives them 24/7 access to manage accounts, transfer funds, pay bills, buy saving certificates,
+              apply for loans, and much more - all without visiting a branch.
+            </p>
+            <p>
+              Imagine never having to wait in line at the bank again. With BM Online, you can check your account balance
+              at midnight, transfer money to a friend on Sunday, pay your phone bill at 3 AM, or even apply for a
+              personal loan from your couch. The app puts full banking capabilities in your pocket, available anytime,
+              anywhere.
+            </p>
+            <p>
+              BM Online is especially powerful for managing saving certificates - a popular investment product in Egypt.
+              You can browse available certificates, compare interest rates, and purchase them instantly through the
+              app, earning competitive returns on your savings without any paperwork or branch visits. It's modern
+              banking made simple.
+            </p>
+          </div>
+        </div>
+
+        <!-- Features -->
+        <div class="content-section">
+          <h2 class="mb-4">Main Features</h2>
+          <div class="grid-2">
+            <div class="feature-card">
+              <div class="feature-icon feature-icon--sky">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                  <polyline points="2 17 12 22 22 17" />
+                  <polyline points="2 12 12 17 22 12" />
+                </svg>
+              </div>
+              <h3>Complete Account Management</h3>
+              <p>
+                View balances, transaction history, and account statements for all your Banque Misr accounts in one
+                place.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon feature-icon--sky">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="22" y1="2" x2="11" y2="13" />
+                  <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                </svg>
+              </div>
+              <h3>Instant Money Transfers</h3>
+              <p>
+                Transfer money between your accounts, to other Banque Misr customers, or to any Egyptian bank via
+                InstaPay.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon feature-icon--sky">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="8" r="7" />
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+                </svg>
+              </div>
+              <h3>Buy Saving Certificates</h3>
+              <p>
+                Purchase Banque Misr's high-interest saving certificates directly from the app - no branch visit
+                required.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon feature-icon--sky">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" />
+                  <line x1="16" y1="13" x2="8" y2="13" />
+                  <line x1="16" y1="17" x2="8" y2="17" />
+                  <polyline points="10 9 9 9 8 9" />
+                </svg>
+              </div>
+              <h3>Bill Payments &amp; Services</h3>
+              <p>
+                Pay bills through Fawry integration, top up mobile credit, and manage standing orders for recurring
+                payments.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- How It Works -->
+        <div class="content-section">
+          <h2 class="mb-4">How It Works</h2>
+          <div class="how-it-works">
+            <p>
+              BM Online securely connects to your Banque Misr account using multi-layer security including your
+              username, password, and one-time passwords (OTP) sent to your registered mobile number. Every transaction
+              you perform through the app is encrypted and protected. When you want to check your balance, the app
+              fetches real-time data from Banque Misr's servers. When you transfer money, it's processed through the
+              bank's secure payment infrastructure with instant confirmation. The app works just like visiting a bank
+              branch - except it's faster, more convenient, and available 24/7. All your transactions are logged and can
+              be reviewed anytime in your transaction history.
+            </p>
+          </div>
+        </div>
+
+        <!-- Getting Started -->
+        <div class="content-section">
+          <h2 class="mb-4">Step-by-Step Setup Guide</h2>
+          <div class="steps-list">
+            <div class="step">
+              <div class="step-num">1</div>
+              <div class="step-content">
+                <h3>Open a Banque Misr account (if you don't have one)</h3>
+                <p>
+                  To use BM Online, you need an active bank account at Banque Misr. If you don't have one, visit any
+                  Banque Misr branch with:
+                </p>
+                <ul>
+                  <li>• Your original National ID card</li>
+                  <li>• Proof of address (utility bill or rental contract)</li>
+                  <li>• Minimum opening deposit (varies by account type, usually EGP 500–1,000)</li>
+                </ul>
+                <p>
+                  The bank representative will help you choose the right account type (savings, current, or salary
+                  account) and complete the paperwork.
+                </p>
+                <p class="tip-note">
+                  💡 Account opening typically takes 30–60 minutes. You'll receive your debit card and account details
+                  immediately or within a few days.
+                </p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-num">2</div>
+              <div class="step-content">
+                <h3>Download and install BM Online</h3>
+                <p>
+                  Search for "BM Online" or "Banque Misr" in the Apple App Store (for iPhone) or Google Play Store (for
+                  Android). Download the official Banque Misr app.
+                </p>
+                <p>
+                  Make sure you download the correct app - look for the Banque Misr logo (red and white colors) and
+                  verify the developer is "Banque Misr."
+                </p>
+                <p class="tip-note">
+                  💡 You can also access BM Online from your computer by visiting Banque Misr's website, but the mobile
+                  app offers a better experience.
+                </p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-num">3</div>
+              <div class="step-content">
+                <h3>Register for BM Online service</h3>
+                <p>Open the app and tap "Register" or "Sign Up." You'll need to provide:</p>
+                <ul>
+                  <li>• Your Banque Misr account number (found on your debit card or account statement)</li>
+                  <li>• National ID number</li>
+                  <li>• Registered mobile phone number (the number you gave the bank when opening your account)</li>
+                  <li>• Debit card number and PIN</li>
+                </ul>
+                <p>
+                  The app will send an OTP (one-time password) to your registered mobile number. Enter this code to
+                  verify your identity.
+                </p>
+                <p class="tip-note">
+                  💡 If you don't remember your registered mobile number, visit a branch or call Banque Misr customer
+                  service at 19888 to update it.
+                </p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-num">4</div>
+              <div class="step-content">
+                <h3>Create your login credentials</h3>
+                <p>After verification, you'll create:</p>
+                <ul>
+                  <li>• A unique username (must be unique across all BM Online users)</li>
+                  <li>• A strong password (mix of uppercase, lowercase, numbers, and special characters)</li>
+                  <li>• Security questions and answers for account recovery</li>
+                </ul>
+                <p>Write down your username and password in a safe place. You'll need them to log in every time.</p>
+                <p class="tip-note">
+                  💡 For faster access, enable biometric login (fingerprint or Face ID) after your first login. This is
+                  more secure and convenient.
+                </p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-num">5</div>
+              <div class="step-content">
+                <h3>Explore the app features</h3>
+                <p>Once logged in, you'll see your account dashboard showing:</p>
+                <ul>
+                  <li>• Current balance for all your accounts</li>
+                  <li>• Recent transactions</li>
+                  <li>• Quick action buttons (Transfer, Pay Bills, etc.)</li>
+                </ul>
+                <p>Common features you can use:</p>
+                <ul>
+                  <li>• <strong>Transfers:</strong> Send money to other accounts or banks</li>
+                  <li>• <strong>Bill Payments:</strong> Pay utilities and services via Fawry</li>
+                  <li>• <strong>Saving Certificates:</strong> Browse and purchase investment certificates</li>
+                  <li>• <strong>Cards:</strong> Manage your debit/credit cards, block lost cards</li>
+                  <li>• <strong>Loans:</strong> Apply for personal, car, or housing loans</li>
+                  <li>• <strong>Statements:</strong> Download account statements in PDF</li>
+                </ul>
+                <p class="tip-note">
+                  💡 Take a few minutes to explore all the menus and features. BM Online offers almost everything you'd
+                  do at a branch.
+                </p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-num">6</div>
+              <div class="step-content">
+                <h3>Make your first transaction</h3>
+                <p>Let's try a simple transfer between your own accounts (if you have multiple) or to a friend:</p>
+                <ul>
+                  <li>1. Tap "Transfer" or "Send Money"</li>
+                  <li>2. Choose transfer type (Own Account, Other Banque Misr Customer, InstaPay to other banks)</li>
+                  <li>3. Enter the recipient details (account number or mobile number for InstaPay)</li>
+                  <li>4. Enter the amount and optional note</li>
+                  <li>5. Review the details carefully</li>
+                  <li>6. Confirm with OTP sent to your mobile</li>
+                </ul>
+                <p>
+                  You'll receive instant confirmation when the transfer is complete. The recipient gets the money
+                  immediately (for InstaPay and internal transfers).
+                </p>
+                <p class="tip-note">
+                  💡 Save frequent recipients to your "Beneficiary List" for faster future transfers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pro Tips -->
+        <div class="pro-tips-box">
+          <div class="pro-tips-header">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
               height="20"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="currentColor"
+              stroke="#16a34a"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
             >
-              <circle cx="12" cy="12" r="10" />
-              <line x1="12" y1="16" x2="12" y2="12" />
-              <line x1="12" y1="8" x2="12.01" y2="8" />
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
             </svg>
-            <h2>What is BM Online?</h2>
+            <h2>Pro Tips</h2>
           </div>
-          <p>
-            BM Online is Banque Misr's comprehensive digital banking platform that brings your entire bank into your
-            smartphone. As one of Egypt's oldest and largest banks, Banque Misr serves millions of customers, and BM
-            Online gives them 24/7 access to manage accounts, transfer funds, pay bills, buy saving certificates, apply
-            for loans, and much more - all without visiting a branch.
-          </p>
-          <p>
-            Imagine never having to wait in line at the bank again. With BM Online, you can check your account balance
-            at midnight, transfer money to a friend on Sunday, pay your phone bill at 3 AM, or even apply for a personal
-            loan from your couch. The app puts full banking capabilities in your pocket, available anytime, anywhere.
-          </p>
-          <p>
-            BM Online is especially powerful for managing saving certificates - a popular investment product in Egypt.
-            You can browse available certificates, compare interest rates, and purchase them instantly through the app,
-            earning competitive returns on your savings without any paperwork or branch visits.
-          </p>
+          <div class="pro-tips-list">
+            <div class="pro-tip-item">
+              <span class="pro-tip-dot">•</span>
+              <span>Use the app to buy Banque Misr saving certificates with competitive interest rates</span>
+            </div>
+            <div class="pro-tip-item">
+              <span class="pro-tip-dot">•</span>
+              <span
+                >Set up transaction alerts to monitor all account activity in real time via SMS or push
+                notifications</span
+              >
+            </div>
+            <div class="pro-tip-item">
+              <span class="pro-tip-dot">•</span>
+              <span>You can apply for personal loans, credit cards, and other services directly through BM Online</span>
+            </div>
+            <div class="pro-tip-item">
+              <span class="pro-tip-dot">•</span>
+              <span>Export account statements for tax and accounting purposes from the app</span>
+            </div>
+            <div class="pro-tip-item">
+              <span class="pro-tip-dot">•</span>
+              <span>Use the "Quick Balance" feature to check your balance without logging in fully</span>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <!-- Features -->
-      <div class="content-section">
-        <h2>Key Features</h2>
-        <div class="grid-2">
-          <div class="feature-card">
-            <div class="feature-icon feature-icon--sky">
+        <!-- Warning -->
+        <div class="content-section">
+          <div class="warning-box">
+            <div class="warning-inner">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="#ea580c"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-                <polygon points="12 2 2 7 12 12 22 7 12 2" />
-                <polyline points="2 17 12 22 22 17" />
-                <polyline points="2 12 12 17 22 12" />
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="8" x2="12" y2="12" />
+                <line x1="12" y1="16" x2="12.01" y2="16" />
               </svg>
-            </div>
-            <h3>Complete Account Management</h3>
-            <p>
-              View balances, transaction history, and account statements for all your Banque Misr accounts in one place.
-            </p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon feature-icon--sky">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <line x1="22" y1="2" x2="11" y2="13" />
-                <polygon points="22 2 15 22 11 13 2 9 22 2" />
-              </svg>
-            </div>
-            <h3>Instant Money Transfers</h3>
-            <p>
-              Transfer money between your accounts, to other Banque Misr customers, or to any Egyptian bank via
-              InstaPay.
-            </p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon feature-icon--sky">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <circle cx="12" cy="8" r="7" />
-                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
-              </svg>
-            </div>
-            <h3>Buy Saving Certificates</h3>
-            <p>
-              Purchase Banque Misr's high-interest saving certificates directly from the app - no branch visit required.
-            </p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon feature-icon--sky">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                <polyline points="14 2 14 8 20 8" />
-                <line x1="16" y1="13" x2="8" y2="13" />
-                <line x1="16" y1="17" x2="8" y2="17" />
-                <polyline points="10 9 9 9 8 9" />
-              </svg>
-            </div>
-            <h3>Bill Payments &amp; Services</h3>
-            <p>
-              Pay bills through Fawry integration, top up mobile credit, and manage standing orders for recurring
-              payments.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- How It Works -->
-      <div class="content-section">
-        <h2>How It Works</h2>
-        <div class="how-it-works">
-          <p>
-            BM Online securely connects to your Banque Misr account using multi-layer security including your username,
-            password, and one-time passwords (OTP) sent to your registered mobile number. Every transaction you perform
-            through the app is encrypted and protected. When you want to check your balance, the app fetches real-time
-            data from Banque Misr's servers. When you transfer money, it's processed through the bank's secure payment
-            infrastructure with instant confirmation. The app works just like visiting a bank branch - except it's
-            faster, more convenient, and available 24/7.
-          </p>
-        </div>
-      </div>
-
-      <!-- Getting Started -->
-      <div class="content-section">
-        <h2>Getting Started</h2>
-        <div class="steps-list">
-          <div class="step">
-            <div class="step-num">1</div>
-            <div class="step-content">
-              <h3>Open a Banque Misr account (if you don't have one)</h3>
-              <p>Visit any Banque Misr branch and bring the following:</p>
-              <ul>
-                <li>• Original National ID</li>
-                <li>• Proof of address (utility bill or rental contract)</li>
-                <li>• Minimum opening deposit (usually EGP 500–1,000)</li>
-              </ul>
-              <p>
-                A bank representative will help you choose the right account type - savings, current, or salary account.
-              </p>
-              <p class="tip-note">💡 Account opening typically takes 30–60 minutes.</p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-num">2</div>
-            <div class="step-content">
-              <h3>Download and install BM Online</h3>
-              <p>
-                Search "BM Online" or "Banque Misr" in the App Store or Google Play. Look for the Banque Misr logo (red
-                and white). You can also access it on your computer via the website.
-              </p>
-              <p class="tip-note">💡 The mobile app offers a better experience than the web version.</p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-num">3</div>
-            <div class="step-content">
-              <h3>Register for BM Online service</h3>
-              <p>Tap "Register" and provide the following information:</p>
-              <ul>
-                <li>• Banque Misr account number</li>
-                <li>• National ID</li>
-                <li>• Registered mobile number</li>
-                <li>• Debit card number and PIN</li>
-              </ul>
-              <p>The app will send an OTP to your registered mobile number to complete verification.</p>
-              <p class="tip-note">💡 If you don't remember your registered number, call 19888.</p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-num">4</div>
-            <div class="step-content">
-              <h3>Create your login credentials</h3>
-              <p>
-                Create a unique username, a strong password, and set up security questions. Write down your username and
-                password somewhere safe for future reference.
-              </p>
-              <p class="tip-note">
-                💡 Enable biometric login (fingerprint or Face ID) after your first login for quicker, more secure
-                access.
-              </p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-num">5</div>
-            <div class="step-content">
-              <h3>Explore the app features</h3>
-              <p>
-                The dashboard shows your current balance, recent transactions, and quick action buttons. Available
-                features include:
-              </p>
-              <ul>
-                <li>• Transfers</li>
-                <li>• Bill Payments</li>
-                <li>• Saving Certificates</li>
-                <li>• Cards</li>
-                <li>• Loans</li>
-                <li>• Statements</li>
-              </ul>
-              <p class="tip-note">💡 Take time to explore all menus to discover every available service.</p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-num">6</div>
-            <div class="step-content">
-              <h3>Make your first transaction</h3>
-              <p>To make a transfer, follow these steps:</p>
-              <ul>
-                <li>• Tap "Transfer"</li>
-                <li>• Choose type (Own Account / Other Banque Misr / InstaPay)</li>
-                <li>• Enter recipient details</li>
-                <li>• Enter amount</li>
-                <li>• Review and confirm with OTP</li>
-              </ul>
-              <p>Transactions receive instant confirmation and are reflected in your balance immediately.</p>
-              <p class="tip-note">
-                💡 Save frequent recipients to your "Beneficiary List" for faster future transfers.
-              </p>
+              <div>
+                <h3>Important Security Warning</h3>
+                <p>
+                  Never share your BM Online username, password, or OTP codes with anyone - not even someone claiming to
+                  be from Banque Misr. The bank will never ask for this information via phone, email, or SMS.
+                </p>
+                <p>
+                  If you receive suspicious messages or calls asking for your banking details, hang up immediately and
+                  call Banque Misr's official customer service at 19888 to report it. Always verify you're using the
+                  official BM Online app downloaded from legitimate app stores.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Pro Tips -->
-      <div class="pro-tips-box">
-        <div class="pro-tips-header">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#16a34a"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-            <polyline points="22 4 12 14.01 9 11.01" />
-          </svg>
-          <h2>Pro Tips</h2>
-        </div>
-        <div class="pro-tips-list">
-          <div class="pro-tip-item">
-            <span class="pro-tip-dot">•</span>
-            <span
-              >Use the app to buy Banque Misr saving certificates with competitive interest rates - no branch visit
-              needed.</span
-            >
-          </div>
-          <div class="pro-tip-item">
-            <span class="pro-tip-dot">•</span>
-            <span>Set up transaction alerts for real-time SMS or push notifications on every account activity.</span>
-          </div>
-          <div class="pro-tip-item">
-            <span class="pro-tip-dot">•</span>
-            <span>Apply for personal loans, credit cards, and other services directly through BM Online.</span>
-          </div>
-          <div class="pro-tip-item">
-            <span class="pro-tip-dot">•</span>
-            <span>Export account statements for tax and accounting purposes with just a few taps.</span>
-          </div>
-          <div class="pro-tip-item">
-            <span class="pro-tip-dot">•</span>
-            <span>Use the "Quick Balance" feature to check your balance without going through a full login.</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Warning -->
-      <div class="warning-box">
-        <div class="warning-inner">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#ea580c"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <line x1="12" y1="8" x2="12" y2="12" />
-            <line x1="12" y1="16" x2="12.01" y2="16" />
-          </svg>
-          <div>
-            <h3>Security Warning</h3>
-            <p>
-              Never share your BM Online username, password, or OTP codes with anyone - not even someone claiming to be
-              from Banque Misr. The bank will never ask for this information via phone, email, or SMS.
-            </p>
-            <p>
-              If you receive suspicious messages or calls asking for your banking details, hang up immediately and call
-              Banque Misr's official customer service at 19888 to report it. Always verify you're using the official BM
-              Online app downloaded from legitimate app stores.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end content-max -->
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
