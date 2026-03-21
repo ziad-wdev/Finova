@@ -3,29 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Digital Platforms — Finova</title>
+    <title>Digital Platforms - Finova</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="container">
-      <a href="./index.html" class="nav-brand">Finova</a>
-      <div class="nav-links">
-        <a href="./index.html" class="nav-link active">Home</a>
-        <a href="./index.html#about" class="nav-link">About Us</a>
-        <a href="./index.html#services" class="nav-link">Our Services</a>
-        <a href="./index.html#team" class="nav-link">Our Team</a>
-        <a href="./investment-tools.html" class="nav-link">Investment Tools</a>
-        <a href="./digital-platforms.html" class="nav-link">Digital Platforms</a>
-        <a href="./investment-tips.html" class="nav-link">Investment Tips</a>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="./index.html" class="nav-brand">Finova</a>
+        <div class="nav-links">
+          <a href="./index.html" class="nav-link active">Home</a>
+          <a href="./index.html#about" class="nav-link">About Us</a>
+          <a href="./index.html#services" class="nav-link">Our Services</a>
+          <a href="./index.html#team" class="nav-link">Our Team</a>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-trigger active">
+              Resources
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <div class="nav-dropdown-menu">
+              <a href="./investment-tools.html" class="nav-dropdown-item">Investment Tools</a>
+              <a href="./digital-platforms.html" class="nav-dropdown-item active">Digital Platforms</a>
+              <a href="./investment-tips.html" class="nav-dropdown-item">Investment Tips</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
     <!-- Page Header -->
-    <div class="page-header page-header--blue-gradient">
+    <div class="page-header page-header--primary">
       <div class="container">
         <a href="./index.html" class="back-link">
           <svg
@@ -91,8 +111,10 @@
                 <polyline points="12 6 12 12 16 14" />
               </svg>
             </div>
-            <h3>Save Time</h3>
-            <p>No more waiting in queues or visiting branches</p>
+            <div>
+              <h3>Save Time</h3>
+              <p>No more waiting in queues or visiting branches</p>
+            </div>
           </div>
 
           <div class="benefit-card">
@@ -111,8 +133,10 @@
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
               </svg>
             </div>
-            <h3>Secure &amp; Safe</h3>
-            <p>Bank-grade encryption and Central Bank regulation</p>
+            <div>
+              <h3>Secure &amp; Safe</h3>
+              <p>Bank-grade encryption and Central Bank regulation</p>
+            </div>
           </div>
 
           <div class="benefit-card">
@@ -133,8 +157,10 @@
                 />
               </svg>
             </div>
-            <h3>Easy to Use</h3>
-            <p>Simple interfaces designed for everyone</p>
+            <div>
+              <h3>Easy to Use</h3>
+              <p>Simple interfaces designed for everyone</p>
+            </div>
           </div>
         </div>
       </div>
@@ -210,7 +236,7 @@
               <div class="platform-card-name">InstaPay</div>
               <div class="platform-card-tagline">Instant Money Transfers</div>
               <p class="platform-card-desc">
-                Egypt's Central Bank-backed real-time payment system for instant interbank transfers — 24/7, no queues.
+                Egypt's Central Bank-backed real-time payment system for instant interbank transfers - 24/7, no queues.
               </p>
               <div class="platform-card-features">
                 <div class="platform-card-feature">
@@ -315,7 +341,7 @@
               <div class="platform-card-name">Vodafone Cash</div>
               <div class="platform-card-tagline">Mobile Wallet by Vodafone</div>
               <p class="platform-card-desc">
-                One of Egypt's most widely-used mobile wallets. Pay bills, transfer money, and shop — no smartphone
+                One of Egypt's most widely-used mobile wallets. Pay bills, transfer money, and shop - no smartphone
                 required.
               </p>
               <div class="platform-card-features">
@@ -421,7 +447,7 @@
               <div class="platform-card-name">Fawry</div>
               <div class="platform-card-tagline">Egypt's #1 Payment Network</div>
               <p class="platform-card-desc">
-                Over 300,000 service points nationwide. Pay any bill — electricity, water, school fees, and government
+                Over 300,000 service points nationwide. Pay any bill - electricity, water, school fees, and government
                 services.
               </p>
               <div class="platform-card-features">
@@ -527,7 +553,7 @@
               <div class="platform-card-name">Meeza</div>
               <div class="platform-card-tagline">Egypt's National Payment Card</div>
               <p class="platform-card-desc">
-                Egypt's national prepaid card accepted anywhere Visa is accepted — online, in stores, and at ATMs
+                Egypt's national prepaid card accepted anywhere Visa is accepted - online, in stores, and at ATMs
                 worldwide.
               </p>
               <div class="platform-card-features">
@@ -743,7 +769,7 @@
               <div class="platform-card-name">BM Online</div>
               <div class="platform-card-tagline">Banque Misr Digital Banking</div>
               <p class="platform-card-desc">
-                Banque Misr's full-service digital banking platform — manage accounts, transfer funds, and buy saving
+                Banque Misr's full-service digital banking platform - manage accounts, transfer funds, and buy saving
                 certificates.
               </p>
               <div class="platform-card-features">
@@ -837,8 +863,13 @@
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
+            class="lucide lucide-shield text-white"
+            data-fg-cyr580="6.28:2103.7318:/src/app/pages/DigitalPlatforms.tsx:252:13:11390:43:e:Shield::::::B8zf"
+            data-fgid-cyr580=":r1kq:"
           >
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            <path
+              d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+            ></path>
           </svg>
         </div>
         <h2>All Platforms Are Safe &amp; Regulated</h2>
@@ -872,14 +903,14 @@
             <h4>Company</h4>
             <div class="footer-links">
               <a href="./index.html#about">About Us</a>
-              <a href="./index.html#services">Services</a>
+              <a href="./index.html#services">Our Services</a>
               <a href="./index.html#team">Our Team</a>
             </div>
           </div>
         </div>
-        <div class="footer-bottom">
-          <p>&copy; 2026 Finova. All rights reserved.</p>
-        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Finova. All rights reserved.</p>
       </div>
     </footer>
   </body>

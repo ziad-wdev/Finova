@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vodafone Cash — Finova</title>
+    <title>Vodafone Cash - Finova</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../styles.css" />
   </head>
@@ -11,15 +11,35 @@
     <!-- Navbar -->
     <nav class="navbar">
       <div class="container">
-        <a href="./index.html" class="nav-brand">Finova</a>
+        <a href="../index.html" class="nav-brand">Finova</a>
         <div class="nav-links">
-          <a href="./index.html" class="nav-link active">Home</a>
-          <a href="./index.html#about" class="nav-link">About Us</a>
-          <a href="./index.html#services" class="nav-link">Our Services</a>
-          <a href="./index.html#team" class="nav-link">Our Team</a>
-          <a href="./investment-tools.html" class="nav-link">Investment Tools</a>
-          <a href="./digital-platforms.html" class="nav-link">Digital Platforms</a>
-          <a href="./investment-tips.html" class="nav-link">Investment Tips</a>
+          <a href="../index.html" class="nav-link active">Home</a>
+          <a href="../index.html#about" class="nav-link">About Us</a>
+          <a href="../index.html#services" class="nav-link">Our Services</a>
+          <a href="../index.html#team" class="nav-link">Our Team</a>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-trigger active">
+              Resources
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <div class="nav-dropdown-menu">
+              <a href="../investment-tools.html" class="nav-dropdown-item">Investment Tools</a>
+              <a href="../digital-platforms.html" class="nav-dropdown-item active">Digital Platforms</a>
+              <a href="../investment-tips.html" class="nav-dropdown-item">Investment Tips</a>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -92,20 +112,20 @@
               <h2>What is Vodafone Cash?</h2>
             </div>
             <p>
-              Vodafone Cash is Egypt's most widely used mobile wallet service, operated by Vodafone Egypt in partnership
-              with Banque Misr. It allows you to store money digitally on your mobile phone and perform a wide range of
-              financial transactions — without needing a traditional bank account.
+              Vodafone Cash is one of Egypt's most widely adopted mobile wallets, operated by Vodafone Egypt. It allows
+              you to store money digitally, pay bills, transfer funds, receive salaries, and shop online - all from a
+              basic mobile phone, no smartphone required.
             </p>
             <p>
-              Think of Vodafone Cash as a virtual pocket linked to your Vodafone SIM card. You can deposit cash, pay
-              bills, send money to friends and family, receive your salary, and even shop online — all from your phone.
-              Your wallet balance is fully insured and protected by Egyptian banking regulations, giving you peace of
-              mind that your money is safe.
+              Imagine carrying a virtual wallet in your pocket that works everywhere. With Vodafone Cash, you can pay
+              your electricity, water, and internet bills without standing in queues. You can shop at thousands of
+              stores, send money to friends and family instantly, and even receive your salary directly into your
+              wallet. All you need is your Vodafone mobile number.
             </p>
             <p>
-              Unlike many digital payment solutions that require a smartphone, Vodafone Cash works on any mobile phone.
-              Through the simple *9# USSD menu, even basic feature phones can access the full range of wallet services —
-              making it truly accessible to everyone across Egypt, regardless of device type or internet connectivity.
+              The service works on any phone - even basic feature phones using the simple *9# menu. Over 100,000
+              Vodafone agents across Egypt can help you deposit or withdraw cash from your wallet whenever you need.
+              It's fast, convenient, and secure.
             </p>
           </div>
         </div>
@@ -215,12 +235,11 @@
         <div class="content-section how-it-works">
           <h2 class="mb-4">How It Works</h2>
           <p>
-            Your Vodafone Cash wallet is directly tied to your Vodafone SIM card and is fully backed by Banque Misr —
-            one of Egypt's largest state-owned banks — ensuring your money is safe and regulated. Every transaction
-            requires your 4-digit PIN for authorization, adding a strong layer of security against unauthorized use.
-            When you make or receive a payment, you instantly receive an SMS confirmation on your phone so you always
-            know the status of your money. The system operates 24 hours a day, 7 days a week through both the USSD menu
-            (*9#) and the Vodafone Cash mobile app, giving you full control of your funds at any time.
+            Your Vodafone Cash wallet is tied to your Vodafone SIM card and backed by a partner bank (Banque Misr). When
+            you add money to your wallet, it's stored securely in your digital account. You can then use this balance to
+            pay merchants, send money to other Vodafone Cash users instantly, or cash out at any authorized agent. The
+            wallet is protected by a secure PIN that only you know, and every transaction sends you an instant SMS
+            confirmation.
           </p>
         </div>
 
@@ -233,12 +252,13 @@
               <div class="step-content">
                 <h3>Get a Vodafone SIM card</h3>
                 <p>
-                  You need an active Vodafone Egypt number to use Vodafone Cash. Visit any Vodafone store with your
-                  National ID to obtain or activate a SIM card.
+                  You need an active Vodafone Egypt mobile number to use Vodafone Cash. If you're already a Vodafone
+                  subscriber, you're all set! If not, visit any Vodafone store with your National ID to get a new SIM
+                  card.
                 </p>
                 <p class="tip-note">
-                  💡 Non-Vodafone users can also register for a Vodafone Cash wallet by visiting a Vodafone store — you
-                  don't need to switch your main number.
+                  💡 Non-Vodafone users can also register at Vodafone stores and link the service to their existing
+                  number from other networks.
                 </p>
               </div>
             </div>
@@ -248,13 +268,16 @@
               <div class="step-content">
                 <h3>Register your wallet</h3>
                 <p>
-                  Dial *9# on your phone and follow the on-screen prompts to create your wallet. You'll be asked to set
-                  a secure 4-digit PIN. For full activation, visit any Vodafone store with your National ID for
-                  biometric verification.
+                  From your Vodafone number, dial *9# and follow the on-screen prompts to create your wallet. You'll
+                  need to set a secure 4-digit PIN code. Remember this PIN - you'll use it for every transaction.
+                </p>
+                <p>
+                  For full activation (higher limits), visit a Vodafone store with your National ID for biometric
+                  verification (fingerprint scan). This takes only a few minutes.
                 </p>
                 <p class="tip-note">
-                  💡 Basic registration allows up to EGP 5,000 wallet limit. Completing full KYC verification at a store
-                  raises your limit to EGP 30,000.
+                  💡 Basic registration gives you up to EGP 5,000 limit. Full KYC (Know Your Customer) verification
+                  increases this to EGP 30,000.
                 </p>
               </div>
             </div>
@@ -263,16 +286,15 @@
               <div class="step-num">3</div>
               <div class="step-content">
                 <h3>Add money to your wallet</h3>
-                <p>There are several ways to top up your Vodafone Cash balance:</p>
+                <p>There are several ways to top up your Vodafone Cash wallet:</p>
                 <ul>
-                  <li>• Visit any Vodafone agent or store and hand them cash</li>
-                  <li>• Deposit at supported ATMs</li>
-                  <li>• Transfer from your bank account via InstaPay</li>
-                  <li>• Receive your salary or remittances directly</li>
+                  <li>• Visit any Vodafone agent (over 100,000 locations) and give them cash</li>
+                  <li>• Deposit cash at Vodafone Cash-enabled ATMs</li>
+                  <li>• Transfer from your bank account via online banking or InstaPay</li>
+                  <li>• Receive salary deposits from your employer</li>
                 </ul>
                 <p class="tip-note">
-                  💡 Top-ups are processed instantly — your balance updates in real time as soon as the transaction is
-                  confirmed.
+                  💡 Top-ups are instant. You'll receive an SMS confirming the new balance immediately.
                 </p>
               </div>
             </div>
@@ -282,17 +304,15 @@
               <div class="step-content">
                 <h3>Pay bills and services</h3>
                 <p>
-                  Dial *9# and select "Pay Bills," then choose the service category (electricity, water, gas, telecom,
-                  etc.). Enter your account or meter number and confirm the payment with your PIN.
+                  Dial *9# from your Vodafone number, select "Pay Bills," and choose the service you want to pay
+                  (electricity, water, internet, mobile bills, etc.). Enter your account or meter number, confirm the
+                  amount, and enter your PIN.
                 </p>
                 <p>
-                  You can also download the free Vodafone Cash app for a more comfortable, visual experience with
-                  additional features and an easier payment flow.
+                  For a better experience, download the free Vodafone Cash app from the App Store or Google Play. It has
+                  a visual interface that makes bill payment even easier.
                 </p>
-                <p class="tip-note">
-                  💡 Save recurring bills in the app for one-tap payments — no need to re-enter your account details
-                  every month.
-                </p>
+                <p class="tip-note">💡 Save your recurring bills in the app for one-tap payments next time.</p>
               </div>
             </div>
 
@@ -301,13 +321,13 @@
               <div class="step-content">
                 <h3>Send money to others</h3>
                 <p>
-                  Dial *9# and select "Send Money," then enter the recipient's Vodafone number, specify the amount, and
-                  confirm with your PIN. Transfers are instant and free between Vodafone Cash wallets. You can also send
-                  money to other banks via the InstaPay integration.
+                  To send money to another Vodafone Cash user, dial *9#, select "Send Money," enter their Vodafone
+                  mobile number and the amount, then confirm with your PIN. The transfer is instant and free.
                 </p>
+                <p>You can also send money to bank accounts using the InstaPay integration built into Vodafone Cash.</p>
                 <p class="tip-note">
-                  💡 Check the app or dial *9# to view current fees for transfers to bank accounts or other mobile
-                  wallets outside the Vodafone network.
+                  💡 Transfers between Vodafone Cash users are usually free. Check the app for current fees on bank
+                  transfers.
                 </p>
               </div>
             </div>
@@ -337,31 +357,19 @@
             <div class="pro-tips-list">
               <div class="pro-tip-item">
                 <span class="pro-tip-dot">•</span>
-                <span
-                  >Wallet limit goes up to EGP 30,000 for fully verified (KYC) accounts — complete verification at any
-                  Vodafone store to unlock the higher limit.</span
-                >
+                <span>Wallet limit: up to EGP 30,000 for verified accounts</span>
               </div>
               <div class="pro-tip-item">
                 <span class="pro-tip-dot">•</span>
-                <span
-                  >Cash out at any Vodafone agent nationwide or at ATMs displaying the Vodafone Cash logo — no bank
-                  account required.</span
-                >
+                <span>Cash out at any Vodafone agent or ATM displaying the Vodafone Cash logo</span>
               </div>
               <div class="pro-tip-item">
                 <span class="pro-tip-dot">•</span>
-                <span
-                  >Download the Vodafone Cash app for a better experience than the USSD (*9#) menu — it offers a clearer
-                  interface, transaction history, and faster bill payments.</span
-                >
+                <span>Use the app for a better experience than the USSD (*9#) menu</span>
               </div>
               <div class="pro-tip-item">
                 <span class="pro-tip-dot">•</span>
-                <span
-                  >You can receive international remittances from Western Union directly into your Vodafone Cash wallet
-                  — no bank account needed to collect money sent from abroad.</span
-                >
+                <span>Vodafone Cash can receive international remittances from services like Western Union</span>
               </div>
             </div>
           </div>
@@ -387,11 +395,10 @@
                 <line x1="12" y1="16" x2="12.01" y2="16" />
               </svg>
               <div>
-                <h3>Security Warning</h3>
+                <h3>Important Warning</h3>
                 <p>
-                  Keep your PIN confidential at all times. Vodafone Cash agents and customer service representatives
-                  will never ask for your PIN under any circumstances. Report any suspicious activity or unauthorized
-                  transactions immediately by calling 888.
+                  Keep your PIN confidential. Vodafone Cash agents will never ask for your PIN. Report any suspicious
+                  activity immediately by calling 888.
                 </p>
               </div>
             </div>
@@ -420,14 +427,14 @@
             <h4>Company</h4>
             <div class="footer-links">
               <a href="../index.html#about">About Us</a>
-              <a href="../index.html#services">Services</a>
+              <a href="../index.html#services">Our Services</a>
               <a href="../index.html#team">Our Team</a>
             </div>
           </div>
         </div>
-        <div class="footer-bottom">
-          <p>&copy; 2026 Finova. All rights reserved.</p>
-        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Finova. All rights reserved.</p>
       </div>
     </footer>
   </body>

@@ -3,30 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Investment Tips — Finova</title>
+    <title>Investment Tips - Finova</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="container">
-      <a href="./index.html" class="nav-brand">Finova</a>
-      <div class="nav-links">
-        <a href="./index.html" class="nav-link active">Home</a>
-        <a href="./index.html#about" class="nav-link">About Us</a>
-        <a href="./index.html#services" class="nav-link">Our Services</a>
-        <a href="./index.html#team" class="nav-link">Our Team</a>
-        <a href="./investment-tools.html" class="nav-link">Investment Tools</a>
-        <a href="./digital-platforms.html" class="nav-link">Digital Platforms</a>
-        <a href="./investment-tips.html" class="nav-link">Investment Tips</a>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="./index.html" class="nav-brand">Finova</a>
+        <div class="nav-links">
+          <a href="./index.html" class="nav-link active">Home</a>
+          <a href="./index.html#about" class="nav-link">About Us</a>
+          <a href="./index.html#services" class="nav-link">Our Services</a>
+          <a href="./index.html#team" class="nav-link">Our Team</a>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-trigger active">
+              Resources
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <div class="nav-dropdown-menu">
+              <a href="./investment-tools.html" class="nav-dropdown-item">Investment Tools</a>
+              <a href="./digital-platforms.html" class="nav-dropdown-item">Digital Platforms</a>
+              <a href="./investment-tips.html" class="nav-dropdown-item active">Investment Tips</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
     <!-- Page Header -->
-    <div class="page-header page-header--blue">
+    <div class="page-header page-header--primary">
       <div class="container">
+        <a href="./index.html" class="back-link">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="19" y1="12" x2="5" y2="12" />
+            <polyline points="12 19 5 12 12 5" />
+          </svg>
+          Back to Home
+        </a>
         <div class="page-header-title-row">
           <div class="page-header-icon">
             <svg
@@ -50,7 +87,7 @@
           <h1>Investment Tips</h1>
         </div>
         <p class="page-header-sub">
-          Practical, no-nonsense advice to help you make smarter financial decisions — whether you're just starting out
+          Practical, no-nonsense advice to help you make smarter financial decisions - whether you're just starting out
           or looking to level up your investment strategy.
         </p>
       </div>
@@ -190,8 +227,7 @@
             </div>
             <p>
               The power of compound interest means that starting with even a small amount today is far more valuable
-              than waiting until you have a large sum. Time in the market beats timing the market — every month you
-              delay is a month of compounding you'll never get back.
+              than waiting until you have a larger sum. EGP 500/month for 20 years outgrows EGP 5,000/month for 5 years.
             </p>
           </div>
           <div class="tip-card">
@@ -200,9 +236,9 @@
               <h3>Understand What You're Investing In</h3>
             </div>
             <p>
-              Never invest in something you don't understand. Whether it's a saving certificate, a mutual fund, or a
-              stock, take the time to learn how it works, what the risks are, and how it fits your goals. Ignorance is
-              one of the biggest financial risks of all.
+              Never invest in something you don't understand. Before putting money into stocks, certificates, or funds -
+              research the product, read the terms, and know the risks. Ignorance is one of the most expensive mistakes
+              investors make.
             </p>
           </div>
           <div class="tip-card">
@@ -211,9 +247,8 @@
               <h3>Set Clear Financial Goals</h3>
             </div>
             <p>
-              Define what you're investing for — a home, retirement, education, or emergency fund. Clear goals help you
-              choose the right instruments, set realistic timelines, and stay motivated when markets get volatile. Vague
-              goals lead to vague results.
+              Define what you're investing for - a home, retirement, education, or emergency fund. Each goal may have a
+              different time horizon and risk level, and your investments should match accordingly.
             </p>
           </div>
         </div>
@@ -247,9 +282,8 @@
               <h3>Diversify Your Portfolio</h3>
             </div>
             <p>
-              Don't put all your eggs in one basket. Spread your investments across different asset classes — stocks,
-              bonds, saving certificates, and real estate — so that a loss in one area doesn't wipe out your entire
-              portfolio. Diversification is the only free lunch in investing.
+              Don't put all your eggs in one basket. Spread your investments across different asset classes - saving
+              certificates for stability, stocks for growth, gold as a hedge, and real estate for long-term value.
             </p>
           </div>
           <div class="tip-card">
@@ -258,9 +292,8 @@
               <h3>Only Invest What You Can Afford to Lose</h3>
             </div>
             <p>
-              High-return investments like stocks carry real risk. Never invest money you need for rent, food, or
-              emergencies. Keep your essential living expenses and emergency fund completely separate from your
-              investment capital, and only commit funds you could afford to lose entirely.
+              High-return investments like stocks carry real risk. Only invest money you won't need urgently. Always
+              keep 3-6 months of living expenses in a liquid, low-risk account before investing aggressively.
             </p>
           </div>
           <div class="tip-card">
@@ -269,9 +302,8 @@
               <h3>Avoid Emotional Decisions</h3>
             </div>
             <p>
-              Markets go up and down. Panic-selling during a dip or FOMO-buying at a peak are the two most common ways
-              investors lose money. Stick to your plan, ignore short-term noise, and remember that volatility is normal.
-              Discipline consistently outperforms gut reactions.
+              Markets go up and down. Panic-selling during a dip or FOMO-buying at a peak are among the most common and
+              costly investor mistakes. Stick to your strategy and review it calmly on a schedule - not reactively.
             </p>
           </div>
         </div>
@@ -305,9 +337,8 @@
               <h3>Reinvest Your Returns</h3>
             </div>
             <p>
-              When your certificate matures or you earn dividends, reinvest those returns instead of spending them.
-              Compounding works best when earnings are consistently reinvested over time. Even small reinvestments can
-              dramatically increase your total wealth over a decade or more.
+              When your certificate matures or you earn dividends, reinvest those returns rather than spending them.
+              Compounding accelerates dramatically when returns are reinvested consistently over time.
             </p>
           </div>
           <div class="tip-card">
@@ -316,9 +347,9 @@
               <h3>Take Advantage of High Interest Periods</h3>
             </div>
             <p>
-              When the Central Bank of Egypt raises interest rates, saving certificate rates often rise too. These are
-              opportunities to lock in high guaranteed returns with zero risk. Pay attention to rate announcements and
-              act quickly, as high-rate certificates often sell out fast.
+              When the Central Bank of Egypt raises interest rates, saving certificate rates often rise too. Lock in
+              long-term certificates during high-interest periods to secure above-average fixed returns for years to
+              come.
             </p>
           </div>
           <div class="tip-card">
@@ -327,9 +358,9 @@
               <h3>Consider Index Funds &amp; ETFs</h3>
             </div>
             <p>
-              Rather than picking individual stocks, consider diversified instruments like ETFs that track the EGX30
-              index. These give you broad market exposure at low cost, reducing company-specific risk while still
-              participating in the overall growth of the Egyptian economy.
+              Rather than picking individual stocks, consider diversified instruments that track the whole market. They
+              reduce risk, require less active management, and historically outperform most active strategies over the
+              long run.
             </p>
           </div>
         </div>
@@ -367,8 +398,7 @@
             </div>
             <p>
               Before spending on anything else, automatically transfer a fixed percentage of your income to savings or
-              investments the moment your salary arrives. Treat it like a non-negotiable bill. This single habit, done
-              consistently, is how most people build lasting wealth over time.
+              investments the moment you get paid. Even 10% is a powerful start that most people find they don't miss.
             </p>
           </div>
           <div class="tip-card">
@@ -377,9 +407,9 @@
               <h3>Track Your Spending</h3>
             </div>
             <p>
-              You can't optimise what you don't measure. Use a budgeting app or a simple spreadsheet to track every
-              expense for at least one month. You'll likely be surprised where your money actually goes — and that
-              awareness alone can lead to significant, painless savings.
+              You can't optimise what you don't measure. Use an app or a simple spreadsheet to categorise your monthly
+              expenses. Most people discover significant room to redirect money towards savings once they see the full
+              picture.
             </p>
           </div>
           <div class="tip-card">
@@ -388,9 +418,8 @@
               <h3>Build an Emergency Fund First</h3>
             </div>
             <p>
-              Before any investment, build a liquid emergency fund equal to 3–6 months of expenses, kept in an easily
-              accessible account. This safety net prevents you from being forced to sell investments at a loss during a
-              personal crisis such as job loss or unexpected medical costs.
+              Before any investment, build a liquid emergency fund equal to 3–6 months of expenses. This prevents you
+              from being forced to sell investments at a loss when unexpected costs arise.
             </p>
           </div>
         </div>
@@ -424,9 +453,9 @@
               <h3>Think in Decades, Not Days</h3>
             </div>
             <p>
-              Wealth is built over years, not overnight. The investors who achieve the best long-term results are
-              typically those who invest consistently, stay the course through downturns, and resist the temptation to
-              constantly buy and sell based on short-term market movements.
+              Wealth is built over years, not overnight. Avoid obsessing over daily market movements. Set a solid
+              strategy, review it quarterly, and let time do the heavy lifting. Patience is the most underrated
+              investment skill.
             </p>
           </div>
           <div class="tip-card">
@@ -435,9 +464,8 @@
               <h3>Protect Against Inflation</h3>
             </div>
             <p>
-              Inflation erodes the value of cash sitting idle. In Egypt, where inflation can run high, keeping large
-              sums in a zero-interest account is effectively losing money every year. Ensure your investments are
-              earning a real return — at least above the current inflation rate.
+              Inflation erodes the value of cash sitting idle. In Egypt, where inflation can run high, it's especially
+              important to invest in assets that historically outpace inflation - such as stocks, real estate, and gold.
             </p>
           </div>
           <div class="tip-card">
@@ -446,9 +474,9 @@
               <h3>Review &amp; Rebalance Regularly</h3>
             </div>
             <p>
-              Once a year, review your portfolio to ensure it still reflects your goals and risk tolerance. As some
-              assets grow faster than others, your allocation can drift. Rebalancing keeps your risk profile on target
-              and forces the disciplined habit of buying low and selling high.
+              Once a year, review your portfolio. If one asset class has grown significantly, it may now represent a
+              larger share than intended. Rebalancing - selling some winners and buying more of laggards - keeps your
+              risk profile on target.
             </p>
           </div>
         </div>
@@ -483,9 +511,9 @@
               <h3>Don't Chase "Get Rich Quick" Schemes</h3>
             </div>
             <p>
-              If something promises guaranteed high returns with no risk, it's almost certainly a scam. Ponzi schemes
-              and fraudulent investment platforms regularly target Egyptian investors. If an offer sounds too good to be
-              true, walk away and verify any platform with the FRA before investing a single pound.
+              If something promises guaranteed high returns with no risk, it's almost certainly a scam. Real investments
+              involve real trade-offs. Be especially wary of unregulated platforms, social media investment groups, and
+              word-of-mouth schemes.
             </p>
           </div>
           <div class="tip-card">
@@ -494,9 +522,8 @@
               <h3>Don't Ignore Fees</h3>
             </div>
             <p>
-              Management fees, transaction costs, and hidden charges can silently eat into your returns year after year.
-              A 2% annual fee on a long-term investment can reduce your final balance by 30–40% over 20 years. Always
-              read the fine print and compare the total cost of any financial product.
+              Management fees, transaction costs, and hidden charges can silently eat into your returns over years.
+              Always read the fine print and compare fee structures before committing to any financial product.
             </p>
           </div>
           <div class="tip-card">
@@ -506,8 +533,7 @@
             </div>
             <p>
               Trying to buy at the exact bottom and sell at the exact top is a strategy that even professional fund
-              managers consistently fail at. Research shows that missing just the 10 best trading days in a decade can
-              cut your returns in half. Consistent investing beats perfect timing every single time.
+              managers consistently fail at. Time in the market almost always beats timing the market.
             </p>
           </div>
         </div>
@@ -515,7 +541,7 @@
     </div>
 
     <!-- Bottom CTA -->
-    <div class="cta-section cta-section--primary">
+    <div class="cta-section cta-section--gradient">
       <div class="container">
         <h2>Ready to Put These Tips Into Action?</h2>
         <p>Explore our investment tools and digital platforms to start building your financial future today.</p>
@@ -546,14 +572,14 @@
             <h4>Company</h4>
             <div class="footer-links">
               <a href="./index.html#about">About Us</a>
-              <a href="./index.html#services">Services</a>
+              <a href="./index.html#services">Our Services</a>
               <a href="./index.html#team">Our Team</a>
             </div>
           </div>
         </div>
-        <div class="footer-bottom">
-          <p>&copy; 2026 Finova. All rights reserved.</p>
-        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Finova. All rights reserved.</p>
       </div>
     </footer>
   </body>

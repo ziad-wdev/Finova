@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Investment Tools — Finova</title>
+    <title>Investment Tools - Finova</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
@@ -18,24 +18,85 @@
           <a href="./index.html#about" class="nav-link">About Us</a>
           <a href="./index.html#services" class="nav-link">Our Services</a>
           <a href="./index.html#team" class="nav-link">Our Team</a>
-          <a href="./investment-tools.html" class="nav-link">Investment Tools</a>
-          <a href="./digital-platforms.html" class="nav-link">Digital Platforms</a>
-          <a href="./investment-tips.html" class="nav-link">Investment Tips</a>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-trigger active">
+              Resources
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <div class="nav-dropdown-menu">
+              <a href="./investment-tools.html" class="nav-dropdown-item active">Investment Tools</a>
+              <a href="./digital-platforms.html" class="nav-dropdown-item">Digital Platforms</a>
+              <a href="./investment-tips.html" class="nav-dropdown-item">Investment Tips</a>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
 
     <!-- Page Header -->
-    <header class="page-header page-header--blue">
+    <div class="page-header page-header--primary">
       <div class="container">
-        <a href="./index.html" class="back-link">← Back to Home</a>
-        <h1>Investment Tools</h1>
+        <a href="./index.html" class="back-link">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="19" y1="12" x2="5" y2="12" />
+            <polyline points="12 19 5 12 12 5" />
+          </svg>
+          Back to Home
+        </a>
+        <div class="page-header-title-row">
+          <div class="page-header-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-pencil-ruler-icon lucide-pencil-ruler"
+            >
+              <path d="M13 7 8.7 2.7a2.41 2.41 0 0 0-3.4 0L2.7 5.3a2.41 2.41 0 0 0 0 3.4L7 13" />
+              <path d="m8 6 2-2" />
+              <path d="m18 16 2-2" />
+              <path d="m17 11 4.3 4.3c.94.94.94 2.46 0 3.4l-2.6 2.6c-.94.94-2.46.94-3.4 0L11 17" />
+              <path
+                d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"
+              />
+              <path d="m15 5 4 4" />
+            </svg>
+          </div>
+          <h1>Investment Tools</h1>
+        </div>
         <p class="page-header-sub">
-          Discover the right investment products for your financial goals — whether you're just starting out or looking
+          Discover the right investment products for your financial goals - whether you're just starting out or looking
           to expand your portfolio.
         </p>
       </div>
-    </header>
+    </div>
 
     <!-- Top 3 Cards Section -->
     <section class="section">
@@ -119,7 +180,8 @@
             <div class="tool-card-body">
               <p>
                 The Egyptian Exchange (EGX) provides an exciting opportunity to invest in publicly listed companies and
-                grow your wealth through capital gains and dividends.
+                grow your wealth through capital gains and dividends. With the right strategy, the stock market can be a
+                powerful wealth-building tool.
               </p>
               <div class="tool-features">
                 <div class="tool-feature">
@@ -168,8 +230,9 @@
             </div>
             <div class="tool-card-body">
               <p>
-                Beyond traditional options, there are many other investment vehicles to consider — from real estate and
-                mutual funds to gold and Treasury bills. Diversifying across asset classes is key to managing risk.
+                Beyond traditional options, there are many other investment vehicles to consider - from real estate and
+                mutual funds to gold and Treasury bills. Diversifying across asset classes is key to managing risk and
+                maximising returns.
               </p>
               <div class="tool-features">
                 <div class="tool-feature">
@@ -229,10 +292,9 @@
           </div>
 
           <p class="detail-intro">
-            Savings certificates represent one of the safest and most reliable investment options available in Egypt.
-            Offered by major national banks such as the National Bank of Egypt (NBE) and Banque Misr, they provide
-            guaranteed returns with no market risk — making them a cornerstone of conservative financial planning for
-            individuals and families alike.
+            Savings certificates are one of the safest investment options in Egypt, offered by national banks like the
+            National Bank of Egypt, Banque Misr, and others. They offer fixed interest rates and guaranteed capital
+            protection, making them ideal for risk-averse investors.
           </p>
 
           <!-- Budget Guidance Subsection -->
@@ -260,8 +322,8 @@
               <div class="budget-card">
                 <div class="budget-range">5,000 – 50,000 EGP</div>
                 <p>
-                  Perfect for beginners. 1-year certificates offer the best flexibility. Monthly payouts keep your cash
-                  flow consistent.
+                  Perfect for beginners. Start with 1-year certificates to test the waters. Look for certificates with
+                  monthly or quarterly interest payouts for regular income.
                 </p>
                 <div class="check-list">
                   <div class="check-item">
@@ -305,8 +367,8 @@
               <div class="budget-card">
                 <div class="budget-range">50,000 – 200,000 EGP</div>
                 <p>
-                  Consider 2-3 year certificates for higher returns. Split across multiple certificates to maintain some
-                  liquidity.
+                  Consider 2-3 year certificates for higher returns. You can split investments across multiple
+                  certificates to balance liquidity and returns.
                 </p>
                 <div class="check-list">
                   <div class="check-item">
@@ -350,8 +412,8 @@
               <div class="budget-card">
                 <div class="budget-range">200,000+ EGP</div>
                 <p>
-                  Maximize returns with 3-year certificates. Premium certificates for larger deposits often come with
-                  better rates.
+                  Maximize returns with 3-year certificates. Consider premium certificates with higher interest rates
+                  available for larger deposits.
                 </p>
                 <div class="check-list">
                   <div class="check-item">
@@ -417,29 +479,29 @@
                 <div class="bullet-item">
                   <div class="bullet-dot"></div>
                   <div>
-                    <span class="bullet-strong">Capital Protection</span>
-                    <span class="bullet-muted">— Your principal is fully guaranteed by the bank</span>
+                    <span class="bullet-strong">Capital Protection:</span>
+                    <span class="bullet-muted">Your initial investment is fully guaranteed</span>
                   </div>
                 </div>
                 <div class="bullet-item">
                   <div class="bullet-dot"></div>
                   <div>
-                    <span class="bullet-strong">Fixed Returns</span>
-                    <span class="bullet-muted">— Know exactly how much you'll earn before you invest</span>
+                    <span class="bullet-strong">Fixed Returns:</span>
+                    <span class="bullet-muted">Predictable income with no market volatility</span>
                   </div>
                 </div>
                 <div class="bullet-item">
                   <div class="bullet-dot"></div>
                   <div>
-                    <span class="bullet-strong">Tax Exemption</span>
-                    <span class="bullet-muted">— Interest income on most certificates is tax-free</span>
+                    <span class="bullet-strong">Tax Exemption:</span>
+                    <span class="bullet-muted">Interest income is often tax-free</span>
                   </div>
                 </div>
                 <div class="bullet-item">
                   <div class="bullet-dot"></div>
                   <div>
-                    <span class="bullet-strong">Easy to Access</span>
-                    <span class="bullet-muted">— Available at branches of major national banks</span>
+                    <span class="bullet-strong">Easy to Access:</span>
+                    <span class="bullet-muted">Available at all major bank branches</span>
                   </div>
                 </div>
               </div>
@@ -469,7 +531,7 @@
                   <div class="bullet-dot"></div>
                   <div>
                     <span class="bullet-strong">Conservative investors</span>
-                    <span class="bullet-muted">who prioritize safety over high returns</span>
+                    <span class="bullet-muted">seeking stable returns</span>
                   </div>
                 </div>
                 <div class="bullet-item">
@@ -483,7 +545,7 @@
                   <div class="bullet-dot"></div>
                   <div>
                     <span class="bullet-strong">First-time investors</span>
-                    <span class="bullet-muted">building their financial foundation</span>
+                    <span class="bullet-muted">building their portfolio</span>
                   </div>
                 </div>
                 <div class="bullet-item">
@@ -521,12 +583,13 @@
             <h2 class="text-primary">Egyptian Stock Market</h2>
           </div>
 
+          <h3 class="sub-title">What is the Stock Market?</h3>
+
           <p class="detail-intro">
-            The Egyptian Exchange (EGX), founded in 1883, is one of the oldest and most established stock exchanges in
-            Africa and the Middle East. By buying and selling shares of publicly listed companies, investors can
-            participate directly in Egypt's economic growth. The EGX 30 tracks the top 30 blue-chip companies by
-            liquidity and activity, while the EGX 70 covers a broader range of mid-cap stocks — together offering a wide
-            spectrum of investment opportunities for every risk appetite.
+            The Egyptian Exchange (EGX) is where publicly traded companies' shares are bought and sold. When you buy a
+            stock, you own a small piece of that company and can benefit from its growth through rising share prices and
+            dividend payments. The EGX 30 tracks the top 30 companies, while the EGX 70 covers the next 70 most active
+            stocks.
           </p>
 
           <!-- 2-column: Benefits + Risks -->
@@ -548,35 +611,35 @@
                   <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
                   <polyline points="17 6 23 6 23 12" />
                 </svg>
-                Benefits
+                Benefits of Stock Investing
               </h3>
               <div class="bullet-list">
                 <div class="bullet-item">
                   <div class="bullet-dot"></div>
                   <div>
-                    <span class="bullet-strong">High Growth Potential</span>
-                    <span class="bullet-muted">— Stocks can significantly outperform inflation over time</span>
+                    <span class="bullet-strong">High Growth Potential:</span>
+                    <span class="bullet-muted">Stocks can deliver significant long-term returns</span>
                   </div>
                 </div>
                 <div class="bullet-item">
                   <div class="bullet-dot"></div>
                   <div>
-                    <span class="bullet-strong">Dividend Income</span>
-                    <span class="bullet-muted">— Many companies distribute regular cash dividends</span>
+                    <span class="bullet-strong">Dividend Income:</span>
+                    <span class="bullet-muted">Earn regular income from profitable companies</span>
                   </div>
                 </div>
                 <div class="bullet-item">
                   <div class="bullet-dot"></div>
                   <div>
-                    <span class="bullet-strong">Liquidity</span>
-                    <span class="bullet-muted">— Buy or sell shares any trading day with ease</span>
+                    <span class="bullet-strong">Liquidity:</span>
+                    <span class="bullet-muted">Buy and sell shares easily during trading hours</span>
                   </div>
                 </div>
                 <div class="bullet-item">
                   <div class="bullet-dot"></div>
                   <div>
-                    <span class="bullet-strong">Ownership</span>
-                    <span class="bullet-muted">— Become a part-owner of real Egyptian businesses</span>
+                    <span class="bullet-strong">Ownership:</span>
+                    <span class="bullet-muted">Become a shareholder in leading Egyptian companies</span>
                   </div>
                 </div>
               </div>
@@ -600,35 +663,35 @@
                   <line x1="12" y1="9" x2="12" y2="13" />
                   <line x1="12" y1="17" x2="12.01" y2="17" />
                 </svg>
-                Risks
+                Risks to Consider
               </h3>
               <div class="bullet-list">
                 <div class="bullet-item">
                   <div class="bullet-dot"></div>
                   <div>
-                    <span class="bullet-strong">Market Volatility</span>
-                    <span class="bullet-muted">— Prices can swing sharply in the short term</span>
+                    <span class="bullet-strong">Market Volatility:</span>
+                    <span class="bullet-muted">Stock prices can fluctuate significantly</span>
                   </div>
                 </div>
                 <div class="bullet-item">
                   <div class="bullet-dot"></div>
                   <div>
-                    <span class="bullet-strong">No Guaranteed Returns</span>
-                    <span class="bullet-muted">— You may lose part or all of your invested capital</span>
+                    <span class="bullet-strong">No Guaranteed Returns:</span>
+                    <span class="bullet-muted">Stock prices can fluctuate significantly</span>
                   </div>
                 </div>
                 <div class="bullet-item">
                   <div class="bullet-dot"></div>
                   <div>
-                    <span class="bullet-strong">Company-Specific Risk</span>
-                    <span class="bullet-muted">— Poor performance by one firm can hurt your portfolio</span>
+                    <span class="bullet-strong">Company-Specific Risk:</span>
+                    <span class="bullet-muted">Poor company performance affects your returns</span>
                   </div>
                 </div>
                 <div class="bullet-item">
                   <div class="bullet-dot"></div>
                   <div>
-                    <span class="bullet-strong">Requires Research</span>
-                    <span class="bullet-muted">— Informed decisions demand time and continuous learning</span>
+                    <span class="bullet-strong">Requires Research:</span>
+                    <span class="bullet-muted">Success depends on analysis and timing</span>
                   </div>
                 </div>
               </div>
@@ -656,50 +719,32 @@
           <div class="grid-2">
             <div class="mini-card">
               <div class="mini-card-title">Start Small</div>
-              <p>
-                Begin with a modest amount you can afford to lose while learning. Even 1,000–5,000 EGP is enough to get
-                real hands-on experience in the market.
-              </p>
+              <p>Begin with a small amount you can afford to lose while you learn the market</p>
             </div>
 
             <div class="mini-card">
               <div class="mini-card-title">Diversify</div>
-              <p>
-                Don't put all your money into one stock. Spread investments across different sectors and companies to
-                reduce the impact of any single loss.
-              </p>
+              <p>Don't put all your money in one stock. Spread it across multiple sectors</p>
             </div>
 
             <div class="mini-card">
               <div class="mini-card-title">Think Long-Term</div>
-              <p>
-                The stock market rewards patience above all. Avoid trying to time the market — focus on steady growth
-                over years, not quick daily gains.
-              </p>
+              <p>The stock market rewards patience. Avoid panic selling during short-term dips</p>
             </div>
 
             <div class="mini-card">
               <div class="mini-card-title">Do Your Research</div>
-              <p>
-                Study company financial statements, annual reports, and market news thoroughly before committing to any
-                stock purchase.
-              </p>
+              <p>Study company fundamentals, read financial reports, and follow market news</p>
             </div>
 
             <div class="mini-card">
               <div class="mini-card-title">Use a Reputable Broker</div>
-              <p>
-                Only trade through licensed brokerage firms registered with the Egyptian Financial Regulatory Authority
-                (FRA) to protect your assets.
-              </p>
+              <p>Choose licensed brokerage firms registered with the Financial Regulatory Authority</p>
             </div>
 
             <div class="mini-card">
               <div class="mini-card-title">Keep Learning</div>
-              <p>
-                Follow market trends, attend investment seminars, read financial news daily, and continuously expand
-                your knowledge of financial markets.
-              </p>
+              <p>Attend workshops, read books, and learn from experienced investors</p>
             </div>
           </div>
         </div>
@@ -729,9 +774,8 @@
           </div>
 
           <p class="detail-intro">
-            Diversifying beyond traditional bank products and the stock market is key to building a resilient and
-            well-rounded portfolio. Here are some of the most popular alternative investment options available to
-            Egyptians, each offering unique benefits and risk profiles suited to different financial goals.
+            Diversification is key to a healthy investment portfolio. Beyond certificates and stocks, consider these
+            alternative investment options that can help balance risk and reward.
           </p>
 
           <!-- Gold Investment -->
@@ -760,8 +804,7 @@
             <div class="alt-invest-box">
               <p>
                 Gold has been a traditional store of value for centuries. In Egypt, you can invest in physical gold
-                (bars, coins, jewelry) or through digital gold platforms that allow you to buy fractional amounts
-                without the need for physical storage.
+                (bars, coins, jewelry) or through digital gold platforms.
               </p>
               <p class="alt-invest-when">When Is It Suitable?</p>
               <div class="check-list">
@@ -780,7 +823,7 @@
                     <circle cx="12" cy="12" r="10" />
                     <path d="m9 12 2 2 4-4" />
                   </svg>
-                  Hedge against inflation and currency devaluation
+                  As a hedge against inflation and currency devaluation
                 </div>
                 <div class="check-item">
                   <svg
@@ -795,9 +838,8 @@
                     stroke-linejoin="round"
                   >
                     <circle cx="12" cy="12" r="10" />
-                    <path d="m9 12 2 2 4-4" />
-                  </svg>
-                  Preserve wealth during periods of economic uncertainty
+                    <path d="m9 12 2 2 4-4" /></svg
+                  >When you want to preserve wealth during economic uncertainty
                 </div>
                 <div class="check-item">
                   <svg
@@ -812,15 +854,14 @@
                     stroke-linejoin="round"
                   >
                     <circle cx="12" cy="12" r="10" />
-                    <path d="m9 12 2 2 4-4" />
-                  </svg>
-                  Best suited for a long-term investment horizon of 5+ years
+                    <path d="m9 12 2 2 4-4" /></svg
+                  >For long-term wealth preservation (5+ years)
                 </div>
               </div>
               <hr class="alt-invest-divider" />
               <p class="alt-invest-key">
-                <strong>Key Benefits:</strong> Tangible asset with intrinsic value, globally recognized, acts as
-                insurance against economic downturns
+                <strong>Key Benefits:</strong> Tangible asset, globally recognized value, acts as insurance against
+                economic downturns
               </p>
             </div>
           </div>
@@ -848,10 +889,8 @@
             </div>
             <div class="alt-invest-box">
               <p>
-                Real estate remains one of Egypt's most popular and trusted investment vehicles. With rapid
-                urbanization, the expansion of new cities like the New Administrative Capital, and growing demand for
-                housing, property investments can offer strong long-term returns through both rental income and capital
-                appreciation.
+                Real estate remains one of Egypt's most popular investment vehicles, whether through buying property for
+                rental income or capital appreciation.
               </p>
               <p class="alt-invest-when">When Is It Suitable?</p>
               <div class="check-list">
@@ -868,9 +907,8 @@
                     stroke-linejoin="round"
                   >
                     <circle cx="12" cy="12" r="10" />
-                    <path d="m9 12 2 2 4-4" />
-                  </svg>
-                  500,000+ EGP available capital for a down payment or full purchase
+                    <path d="m9 12 2 2 4-4" /></svg
+                  >When you have significant capital (500,000+ EGP typically)
                 </div>
                 <div class="check-item">
                   <svg
@@ -885,9 +923,8 @@
                     stroke-linejoin="round"
                   >
                     <circle cx="12" cy="12" r="10" />
-                    <path d="m9 12 2 2 4-4" />
-                  </svg>
-                  Seeking a reliable passive income stream through rentals
+                    <path d="m9 12 2 2 4-4" /></svg
+                  >For generating passive monthly income through rentals
                 </div>
                 <div class="check-item">
                   <svg
@@ -902,9 +939,8 @@
                     stroke-linejoin="round"
                   >
                     <circle cx="12" cy="12" r="10" />
-                    <path d="m9 12 2 2 4-4" />
-                  </svg>
-                  Long-term investment horizon of 7+ years for best capital gains
+                    <path d="m9 12 2 2 4-4" /></svg
+                  >Long-term investment horizon (7+ years) for best returns
                 </div>
                 <div class="check-item">
                   <svg
@@ -919,15 +955,14 @@
                     stroke-linejoin="round"
                   >
                     <circle cx="12" cy="12" r="10" />
-                    <path d="m9 12 2 2 4-4" />
-                  </svg>
-                  Interested in investing in high-growth, developing areas
+                    <path d="m9 12 2 2 4-4" /></svg
+                  >In growing areas with infrastructure development
                 </div>
               </div>
               <hr class="alt-invest-divider" />
               <p class="alt-invest-key">
-                <strong>Key Benefits:</strong> Steady rental income, property value appreciation over time, tangible
-                asset, potential tax advantages
+                <strong>Key Benefits:</strong> Steady rental income, property appreciation, tangible asset, tax
+                advantages
               </p>
             </div>
           </div>
@@ -954,11 +989,7 @@
               <h3>Small Business Projects</h3>
             </div>
             <div class="alt-invest-box">
-              <p>
-                Starting a small business or investing in a franchise can provide both income and personal fulfillment.
-                Egypt's growing entrepreneurial ecosystem — supported by government initiatives and a young, driven
-                population — offers numerous opportunities across retail, food and beverage, technology, and
-                professional services.
+              <p>Starting a small business or investing in a franchise can provide both income and personal fulfillment. This includes e-commerce stores, cafes, service businesses, or investing in startups.
               </p>
               <p class="alt-invest-when">When Is It Suitable?</p>
               <div class="check-list">
@@ -976,8 +1007,7 @@
                   >
                     <circle cx="12" cy="12" r="10" />
                     <path d="m9 12 2 2 4-4" />
-                  </svg>
-                  You have expertise or a genuine passion in a specific industry
+                  </svg>When you have expertise or passion in a specific industry
                 </div>
                 <div class="check-item">
                   <svg
@@ -993,8 +1023,7 @@
                   >
                     <circle cx="12" cy="12" r="10" />
                     <path d="m9 12 2 2 4-4" />
-                  </svg>
-                  You are an entrepreneur willing to invest time, effort, and energy
+                  </svg>For entrepreneurs willing to invest time and effort
                 </div>
                 <div class="check-item">
                   <svg
@@ -1010,14 +1039,29 @@
                   >
                     <circle cx="12" cy="12" r="10" />
                     <path d="m9 12 2 2 4-4" />
-                  </svg>
-                  20,000 – 500,000+ EGP available as starting capital
+                  </svg>When you want control over your investment
+                </div>
+              </div>
+                <div class="check-item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="m9 12 2 2 4-4" />
+                  </svg>Starting capital can range from 20,000 EGP to 500,000+ EGP
                 </div>
               </div>
               <hr class="alt-invest-divider" />
               <p class="alt-invest-key">
-                <strong>Key Benefits:</strong> Unlimited income potential, contributes to job creation, personal
-                satisfaction and sense of ownership
+                <strong>Key Benefits:</strong> Unlimited income potential, contributes to job creation, personal satisfaction and sense of ownership
               </p>
             </div>
           </div>
@@ -1045,15 +1089,15 @@
             <h4>Company</h4>
             <div class="footer-links">
               <a href="./index.html#about">About Us</a>
-              <a href="./index.html#services">Services</a>
+              <a href="./index.html#services">Our Services</a>
               <a href="./index.html#team">Our Team</a>
             </div>
           </div>
         </div>
+      </div>
         <div class="footer-bottom">
           <p>&copy; 2026 Finova. All rights reserved.</p>
         </div>
-      </div>
     </footer>
   </body>
 </html>

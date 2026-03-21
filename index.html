@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home — Finova</title>
+    <title>Finova</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -17,9 +17,29 @@
           <a href="./index.html#about" class="nav-link">About Us</a>
           <a href="./index.html#services" class="nav-link">Our Services</a>
           <a href="./index.html#team" class="nav-link">Our Team</a>
-          <a href="./investment-tools.html" class="nav-link">Investment Tools</a>
-          <a href="./digital-platforms.html" class="nav-link">Digital Platforms</a>
-          <a href="./investment-tips.html" class="nav-link">Investment Tips</a>
+          <div class="nav-dropdown">
+            <button class="nav-link nav-dropdown-trigger">
+              Resources
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="13"
+                height="13"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="6 9 12 15 18 9" />
+              </svg>
+            </button>
+            <div class="nav-dropdown-menu">
+              <a href="./investment-tools.html" class="nav-dropdown-item">Investment Tools</a>
+              <a href="./digital-platforms.html" class="nav-dropdown-item">Digital Platforms</a>
+              <a href="./investment-tips.html" class="nav-dropdown-item">Investment Tips</a>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -55,25 +75,26 @@
           <div class="about-card">
             <h2>About Us</h2>
             <p>
-              Finova is a forward-thinking financial services firm dedicated to empowering individuals and businesses
-              with the knowledge, tools, and strategies needed to navigate today's complex financial landscape.
+              We are a forward-thinking financial services firm dedicated to empowering individuals and businesses to
+              take control of their financial futures. With decades of combined expertise, our team of certified
+              advisors brings clarity and confidence to every financial decision.
             </p>
             <p>
-              Founded on the principles of transparency, integrity, and innovation, we bring together decades of
-              expertise to deliver personalized financial solutions that align with your unique goals and aspirations.
+              Our mission is to make professional financial planning accessible to everyone - from first-time investors
+              to seasoned professionals - through personalised strategies built around your unique goals.
             </p>
           </div>
 
           <div class="about-card about-card--primary">
             <h2>What We Do</h2>
             <p>
-              We offer comprehensive financial planning services spanning investment management, retirement strategy,
-              digital platform guidance, and wealth protection — all tailored to your individual financial situation.
+              We provide a comprehensive suite of financial planning services, including investment management,
+              retirement planning, tax optimisation, and wealth preservation strategies. Our digital platforms give you
+              real-time visibility into your portfolio performance.
             </p>
             <p>
-              From exploring stock market opportunities to leveraging Egypt's leading digital payment platforms, our
-              team provides the expert insights and hands-on support you need to make confident, informed financial
-              decisions every step of the way.
+              From goal-setting to execution, we partner with you at every stage - leveraging cutting-edge tools and
+              data-driven insights to ensure your money works as hard as you do.
             </p>
           </div>
         </div>
@@ -84,7 +105,7 @@
     <section class="section section--secondary" id="services">
       <div class="container">
         <h2 class="section-title">Our Services</h2>
-        <p class="section-subtitle">Everything you need to grow, manage, and protect your wealth — all in one place.</p>
+        <p class="section-subtitle">Everything you need to grow, manage, and protect your wealth - all in one place.</p>
 
         <div class="grid-3">
           <!-- Investment Tools -->
@@ -147,7 +168,7 @@
               </svg>
             </div>
             <h3>Digital Platforms</h3>
-            <p>Learn how to use Egypt's leading digital payment and investment platforms — step by step.</p>
+            <p>Learn how to use Egypt's leading digital payment and investment platforms - step by step.</p>
             <span class="service-link">
               Explore
               <svg
@@ -305,14 +326,14 @@
             <h4>Company</h4>
             <div class="footer-links">
               <a href="./index.html#about">About Us</a>
-              <a href="./index.html#services">Services</a>
+              <a href="./index.html#services">Our Services</a>
               <a href="./index.html#team">Our Team</a>
             </div>
           </div>
         </div>
-        <div class="footer-bottom">
-          <p>&copy; 2026 Finova. All rights reserved.</p>
-        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Finova. All rights reserved.</p>
       </div>
     </footer>
   </body>
