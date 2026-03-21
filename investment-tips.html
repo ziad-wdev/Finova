@@ -12,6 +12,11 @@
     <nav class="navbar">
       <div class="container">
         <a href="./index.html" class="nav-brand">Finova</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
         <div class="nav-links">
           <a href="./index.html" class="nav-link">Home</a>
           <a href="./index.html#about" class="nav-link">About Us</a>
@@ -582,5 +587,35 @@
         <p>&copy; 2026 Finova. All rights reserved.</p>
       </div>
     </footer>
+    <script>
+      (function () {
+        var toggle = document.querySelector('.nav-toggle');
+        var links = document.querySelector('.nav-links');
+
+        toggle.addEventListener('click', function () {
+          var open = links.classList.toggle('open');
+          toggle.classList.toggle('open', open);
+          toggle.setAttribute('aria-expanded', String(open));
+        });
+
+        document.querySelectorAll('.nav-dropdown-trigger').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            if (window.innerWidth < 768) {
+              btn.closest('.nav-dropdown').classList.toggle('open');
+            }
+          });
+        });
+
+        document.querySelectorAll('.nav-dropdown-item').forEach(function (item) {
+          item.addEventListener('click', function () {
+            if (window.innerWidth < 768) {
+              links.classList.remove('open');
+              toggle.classList.remove('open');
+              toggle.setAttribute('aria-expanded', 'false');
+            }
+          });
+        });
+      })();
+    </script>
   </body>
 </html>
