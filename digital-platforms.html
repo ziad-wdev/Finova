@@ -3,32 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Digital Platforms - Finova</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <title>Finova</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar">
       <div class="container">
-        <a href="./index.html" class="nav-brand">Finova</a>
+        <div class="brand">
+          <img src="./Finova.png" alt="Finova" width="24" />
+          <a href="./index.html">Finova</a>
+        </div>
         <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
           <span></span>
           <span></span>
           <span></span>
         </button>
         <div class="nav-links">
-          <a href="./index.html" class="nav-link">Home</a>
+          <a href="./index.html#home" class="nav-link">Home</a>
           <a href="./index.html#about" class="nav-link">About Us</a>
           <a href="./index.html#services" class="nav-link">Our Services</a>
           <a href="./index.html#team" class="nav-link">Our Team</a>
           <div class="nav-dropdown">
-            <button class="nav-dropdown-trigger active">
+            <button class="nav-link nav-dropdown-trigger">
               Resources
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="14"
+                width="13"
+                height="13"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -41,7 +44,7 @@
             </button>
             <div class="nav-dropdown-menu">
               <a href="./investment-tools.html" class="nav-dropdown-item">Investment Tools</a>
-              <a href="./digital-platforms.html" class="nav-dropdown-item active">Digital Platforms</a>
+              <a href="./digital-platforms.html" class="nav-dropdown-item">Digital Platforms</a>
               <a href="./investment-tips.html" class="nav-dropdown-item">Investment Tips</a>
             </div>
           </div>
@@ -855,7 +858,7 @@
     </section>
 
     <!-- Bottom CTA -->
-    <div class="cta-section cta-section--gradient">
+    <div class="cta-section cta-section--primary">
       <div class="container">
         <div class="cta-icon">
           <svg
@@ -893,7 +896,10 @@
       <div class="container">
         <div class="footer-grid">
           <div>
-            <div class="footer-brand">Finova</div>
+            <div class="brand">
+              <img src="./Finova.png" alt="Finova" width="24" />
+              <a href="./index.html">Finova</a>
+            </div>
             <p class="footer-desc">Your trusted partner in financial planning.</p>
           </div>
           <div>
@@ -922,13 +928,11 @@
       (function () {
         var toggle = document.querySelector('.nav-toggle');
         var links = document.querySelector('.nav-links');
-
         toggle.addEventListener('click', function () {
           var open = links.classList.toggle('open');
           toggle.classList.toggle('open', open);
           toggle.setAttribute('aria-expanded', String(open));
         });
-
         document.querySelectorAll('.nav-dropdown-trigger').forEach(function (btn) {
           btn.addEventListener('click', function () {
             if (window.innerWidth < 768) {
@@ -936,7 +940,6 @@
             }
           });
         });
-
         document.querySelectorAll('.nav-dropdown-item').forEach(function (item) {
           item.addEventListener('click', function () {
             if (window.innerWidth < 768) {

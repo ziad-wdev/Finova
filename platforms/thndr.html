@@ -3,15 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thndr - Finova</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <title>Finova</title>
     <link rel="stylesheet" href="../styles.css" />
   </head>
-  <main>
+  <body>
     <!-- Navbar -->
     <nav class="navbar">
       <div class="container">
-        <a href="../index.html" class="nav-brand">Finova</a>
+        <div class="brand">
+          <img src="../Finova.png" alt="Finova" width="24" />
+          <a href="../index.html">Finova</a>
+        </div>
         <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
           <span></span>
           <span></span>
@@ -23,12 +26,12 @@
           <a href="../index.html#services" class="nav-link">Our Services</a>
           <a href="../index.html#team" class="nav-link">Our Team</a>
           <div class="nav-dropdown">
-            <button class="nav-dropdown-trigger active">
+            <button class="nav-link nav-dropdown-trigger">
               Resources
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="14"
+                width="13"
+                height="13"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -41,7 +44,7 @@
             </button>
             <div class="nav-dropdown-menu">
               <a href="../investment-tools.html" class="nav-dropdown-item">Investment Tools</a>
-              <a href="../digital-platforms.html" class="nav-dropdown-item active">Digital Platforms</a>
+              <a href="../digital-platforms.html" class="nav-dropdown-item">Digital Platforms</a>
               <a href="../investment-tips.html" class="nav-dropdown-item">Investment Tips</a>
             </div>
           </div>
@@ -94,388 +97,395 @@
 
     <!-- Main Content -->
     <main>
-    <div class="content-max">
-      <!-- Overview -->
-      <div class="content-section">
-        <div class="overview-box">
-          <div class="overview-header">
+      <div class="content-max">
+        <!-- Overview -->
+        <div class="content-section">
+          <div class="overview-box">
+            <div class="overview-header">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="16" x2="12" y2="12" />
+                <line x1="12" y1="8" x2="12.01" y2="8" />
+              </svg>
+              <h2>What is Thndr?</h2>
+            </div>
+            <p>
+              Thndr is Egypt's first commission-free investing app that lets you buy and sell stocks on the Egyptian
+              Exchange (EGX) with zero trading fees. It's designed for both beginners and experienced investors,
+              offering a simple smartphone interface with real-time market data, educational content, and instant trade
+              execution.
+            </p>
+            <p>
+              Traditionally, investing in the stock market required opening a brokerage account with high minimum
+              deposits, paying hefty commissions on every trade, and dealing with complicated procedures. Thndr changes
+              all that. You can start investing with as little as EGP 1, pay zero commission on buying or selling
+              stocks, and manage everything from your phone in just a few taps.
+            </p>
+            <p>
+              Whether you want to invest in major Egyptian companies like Commercial International Bank (CIB), Talaat
+              Moustafa Group (TMG), or Eastern Tobacco, Thndr makes it accessible to everyone. The app provides stock
+              information, price charts, company news, and even curated collections of stocks to help beginners
+              understand where to start. It's regulated by Egypt's Financial Regulatory Authority (FRA), ensuring your
+              investments are safe and secure.
+            </p>
+          </div>
+        </div>
+
+        <!-- Features -->
+        <div class="content-section">
+          <h2 class="mb-4">Main Features</h2>
+          <div class="grid-2">
+            <div class="feature-card">
+              <div class="feature-icon feature-icon--purple">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="19" y1="5" x2="5" y2="19" />
+                  <circle cx="6.5" cy="6.5" r="2.5" />
+                  <circle cx="17.5" cy="17.5" r="2.5" />
+                </svg>
+              </div>
+              <h3>Zero Commissions</h3>
+              <p>
+                Buy and sell Egyptian stocks with no trading fees. Keep 100% of your returns - Thndr doesn't charge
+                commissions.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon feature-icon--purple">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="12" y1="1" x2="12" y2="23" />
+                  <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                </svg>
+              </div>
+              <h3>Start with EGP 1</h3>
+              <p>
+                No minimum investment required. Begin your investing journey with any amount you're comfortable with.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon feature-icon--purple">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                </svg>
+              </div>
+              <h3>Real-Time Trading</h3>
+              <p>
+                Live stock prices and instant order execution during Egyptian Exchange market hours (Sunday–Thursday, 10
+                AM – 2:30 PM).
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon feature-icon--purple">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                </svg>
+              </div>
+              <h3>Learn as You Invest</h3>
+              <p>
+                Built-in educational content, stock insights, and beginner-friendly guides help you make informed
+                decisions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- How It Works -->
+        <div class="content-section">
+          <h2 class="mb-4">How It Works</h2>
+          <div class="how-it-works">
+            <p>
+              Thndr connects you directly to the Egyptian Exchange (EGX) through a licensed brokerage firm (EFG Hermes).
+              When you place an order to buy a stock, Thndr sends it to the exchange instantly, and if a seller is
+              available at that price, the trade happens immediately. The stocks you buy are held in your name in a
+              secure custody account regulated by Egypt's financial authorities. You can sell your stocks anytime during
+              market hours, and the funds are transferred to your Thndr wallet, from which you can withdraw to your bank
+              account. Everything happens in real time, giving you full control over your investments.
+            </p>
+          </div>
+        </div>
+
+        <!-- Getting Started Steps -->
+        <div class="content-section">
+          <h2 class="mb-4">Step-by-Step Setup Guide</h2>
+          <div class="steps-list">
+            <div class="step">
+              <div class="step-num">1</div>
+              <div class="step-content">
+                <h3>Download the Thndr app</h3>
+                <p>
+                  Thndr is available on both iOS (Apple App Store) and Android (Google Play Store). Search for "Thndr"
+                  and download the official app to your smartphone.
+                </p>
+                <p>Make sure you download the correct app - look for the purple logo with a lightning bolt icon.</p>
+                <p class="tip-note">
+                  💡 Thndr is mobile-only. There's no desktop version, but the app is designed to be easy to use on your
+                  phone.
+                </p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-num">2</div>
+              <div class="step-content">
+                <h3>Sign up and verify your identity</h3>
+                <p>Open the app and tap "Sign Up." You'll need to provide:</p>
+                <ul>
+                  <li>• Your full name (as it appears on your National ID)</li>
+                  <li>• Mobile phone number</li>
+                  <li>• Email address</li>
+                  <li>• National ID number</li>
+                </ul>
+                <p>
+                  Next, you'll take a selfie and upload photos of the front and back of your National ID. This is
+                  required by Egyptian law for Know Your Customer (KYC) verification.
+                </p>
+                <p>
+                  Thndr uses AI to verify your identity instantly. The process typically takes 1–2 minutes. Once
+                  approved, you'll receive a confirmation notification.
+                </p>
+                <p class="tip-note">
+                  💡 Make sure your ID is valid and not expired. Thndr is regulated by the Financial Regulatory
+                  Authority (FRA), so verification is mandatory.
+                </p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-num">3</div>
+              <div class="step-content">
+                <h3>Add money to your Thndr wallet</h3>
+                <p>To start investing, you need to deposit funds into your Thndr wallet. You can do this through:</p>
+                <ul>
+                  <li>
+                    • <strong>Bank transfer:</strong> Transfer from your Egyptian bank account using the account details
+                    provided in the app
+                  </li>
+                  <li>• <strong>Mobile wallet:</strong> Use Vodafone Cash, Fawry, or other mobile wallets</li>
+                  <li>
+                    • <strong>Credit/Debit card:</strong> Instantly fund your account with any Egyptian or international
+                    card
+                  </li>
+                </ul>
+                <p>
+                  The minimum deposit is EGP 1, but most payment methods have a minimum of around EGP 50–100 due to
+                  processing fees.
+                </p>
+                <p>
+                  Deposits via bank transfer usually take a few hours to appear. Card and wallet deposits are instant.
+                </p>
+                <p class="tip-note">
+                  💡 Start small if you're a beginner. You can always add more funds later as you get comfortable.
+                </p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-num">4</div>
+              <div class="step-content">
+                <h3>Explore stocks and do your research</h3>
+                <p>Browse the list of Egyptian Exchange (EGX) stocks available on Thndr. You can:</p>
+                <ul>
+                  <li>• View real-time stock prices and daily price changes</li>
+                  <li>• See historical price charts (1 day, 1 week, 1 month, 1 year, all time)</li>
+                  <li>• Read company profiles and financial data</li>
+                  <li>• Explore curated stock collections like "Top Gainers," "Most Active," or "Blue Chips"</li>
+                </ul>
+                <p>
+                  Thndr also provides educational content and news updates about companies to help you make informed
+                  decisions.
+                </p>
+                <p class="tip-note">
+                  💡 Don't invest in something you don't understand. Use Thndr's educational resources to learn about
+                  different companies and industries first.
+                </p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-num">5</div>
+              <div class="step-content">
+                <h3>Place your first trade</h3>
+                <p>When you're ready to buy a stock:</p>
+                <ul>
+                  <li>1. Tap on the stock you want to buy</li>
+                  <li>2. Tap the "Buy" button</li>
+                  <li>
+                    3. Enter the number of shares you want OR the total amount you want to invest (Thndr calculates the
+                    shares for you)
+                  </li>
+                  <li>4. Review the order summary showing the total cost</li>
+                  <li>5. Confirm the order</li>
+                </ul>
+                <p>
+                  Your order is sent to the Egyptian Exchange immediately. If the stock is available at that price, the
+                  trade executes instantly during market hours (Sunday–Thursday, 10 AM – 2:30 PM).
+                </p>
+                <p>
+                  The stocks you buy appear in your "Portfolio" section, where you can track their performance in real
+                  time.
+                </p>
+                <p class="tip-note">
+                  💡 Start with a small amount on your first trade to get familiar with how the process works. You can
+                  always buy more later.
+                </p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-num">6</div>
+              <div class="step-content">
+                <h3>Monitor and sell when ready</h3>
+                <p>Track your investments in the Portfolio tab. You'll see:</p>
+                <ul>
+                  <li>• Current value of each stock you own</li>
+                  <li>• Total profit or loss (in EGP and percentage)</li>
+                  <li>• Daily price changes</li>
+                </ul>
+                <p>
+                  When you want to sell, tap the stock, then tap "Sell," enter the number of shares, and confirm. The
+                  sale is processed instantly, and funds are added to your Thndr wallet.
+                </p>
+                <p>You can withdraw money from your wallet to your bank account anytime through the app.</p>
+                <p class="tip-note">
+                  💡 Investing is a long-term strategy. Avoid panicking when prices drop temporarily. Focus on the
+                  company's fundamentals and your investment goals.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pro Tips -->
+        <div class="pro-tips-box">
+          <div class="pro-tips-header">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
               height="20"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="currentColor"
+              stroke="#16a34a"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
             >
-              <circle cx="12" cy="12" r="10" />
-              <line x1="12" y1="16" x2="12" y2="12" />
-              <line x1="12" y1="8" x2="12.01" y2="8" />
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
             </svg>
-            <h2>What is Thndr?</h2>
+            <h2>Pro Tips</h2>
           </div>
-          <p>
-            Thndr is Egypt's first commission-free investing app that lets you buy and sell stocks on the Egyptian
-            Exchange (EGX) with zero trading fees. It's designed for both beginners and experienced investors, offering
-            a simple smartphone interface with real-time market data, educational content, and instant trade execution.
-          </p>
-          <p>
-            Traditionally, investing in the stock market required opening a brokerage account with high minimum
-            deposits, paying hefty commissions on every trade, and dealing with complicated procedures. Thndr changes
-            all that. You can start investing with as little as EGP 1, pay zero commission on buying or selling stocks,
-            and manage everything from your phone in just a few taps.
-          </p>
-          <p>
-            Whether you want to invest in major Egyptian companies like Commercial International Bank (CIB), Talaat
-            Moustafa Group (TMG), or Eastern Tobacco, Thndr makes it accessible to everyone. The app provides stock
-            information, price charts, company news, and even curated collections of stocks to help beginners understand
-            where to start. It's regulated by Egypt's Financial Regulatory Authority (FRA), ensuring your investments
-            are safe and secure.
-          </p>
+          <div class="pro-tips-list">
+            <div class="pro-tip-item">
+              <span class="pro-tip-dot">•</span>
+              <span>Start small and diversify across multiple stocks to reduce risk</span>
+            </div>
+            <div class="pro-tip-item">
+              <span class="pro-tip-dot">•</span>
+              <span>Trading is only available during EGX market hours (Sunday–Thursday, 10 AM – 2:30 PM)</span>
+            </div>
+            <div class="pro-tip-item">
+              <span class="pro-tip-dot">•</span>
+              <span>Use Thndr's educational content to learn about investing before you start</span>
+            </div>
+            <div class="pro-tip-item">
+              <span class="pro-tip-dot">•</span>
+              <span
+                >Monitor your portfolio regularly but avoid making emotional decisions based on short-term
+                movements</span
+              >
+            </div>
+            <div class="pro-tip-item">
+              <span class="pro-tip-dot">•</span>
+              <span>Thndr offers fractional shares for some stocks, allowing you to invest any amount</span>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <!-- Features -->
-      <div class="content-section">
-        <h2 class="mb-4">Main Features</h2>
-        <div class="grid-2">
-          <div class="feature-card">
-            <div class="feature-icon feature-icon--purple">
+        <!-- Warning -->
+        <div class="content-section">
+          <div class="warning-box">
+            <div class="warning-inner">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="#ea580c"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-                <line x1="19" y1="5" x2="5" y2="19" />
-                <circle cx="6.5" cy="6.5" r="2.5" />
-                <circle cx="17.5" cy="17.5" r="2.5" />
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="8" x2="12" y2="12" />
+                <line x1="12" y1="16" x2="12.01" y2="16" />
               </svg>
+              <div>
+                <h3>Important Warning</h3>
+                <p>
+                  Investing in stocks carries risk. Stock prices can go up or down, and you may lose some or all of your
+                  invested capital. Never invest money you can't afford to lose or money you need for essential
+                  expenses.
+                </p>
+                <p>
+                  Always do your own research before buying any stock. Understand the company, its business model, and
+                  financial health. Past performance does not guarantee future results.
+                </p>
+              </div>
             </div>
-            <h3>Zero Commissions</h3>
-            <p>
-              Buy and sell Egyptian stocks with no trading fees. Keep 100% of your returns - Thndr doesn't charge
-              commissions.
-            </p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon feature-icon--purple">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <line x1="12" y1="1" x2="12" y2="23" />
-                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-              </svg>
-            </div>
-            <h3>Start with EGP 1</h3>
-            <p>No minimum investment required. Begin your investing journey with any amount you're comfortable with.</p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon feature-icon--purple">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
-              </svg>
-            </div>
-            <h3>Real-Time Trading</h3>
-            <p>
-              Live stock prices and instant order execution during Egyptian Exchange market hours (Sunday–Thursday, 10
-              AM – 2:30 PM).
-            </p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon feature-icon--purple">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-              </svg>
-            </div>
-            <h3>Learn as You Invest</h3>
-            <p>
-              Built-in educational content, stock insights, and beginner-friendly guides help you make informed
-              decisions.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- How It Works -->
-      <div class="content-section">
-        <h2 class="mb-4">How It Works</h2>
-        <div class="how-it-works">
-          <p>
-            Thndr connects you directly to the Egyptian Exchange (EGX) through a licensed brokerage firm (EFG Hermes).
-            When you place an order to buy a stock, Thndr sends it to the exchange instantly, and if a seller is
-            available at that price, the trade happens immediately. The stocks you buy are held in your name in a secure
-            custody account regulated by Egypt's financial authorities. You can sell your stocks anytime during market
-            hours, and the funds are transferred to your Thndr wallet, from which you can withdraw to your bank account.
-            Everything happens in real time, giving you full control over your investments.
-          </p>
-        </div>
-      </div>
-
-      <!-- Getting Started Steps -->
-      <div class="content-section">
-        <h2 class="mb-4">Step-by-Step Setup Guide</h2>
-        <div class="steps-list">
-          <div class="step">
-            <div class="step-num">1</div>
-            <div class="step-content">
-              <h3>Download the Thndr app</h3>
-              <p>
-                Thndr is available on both iOS (Apple App Store) and Android (Google Play Store). Search for "Thndr" and
-                download the official app to your smartphone.
-              </p>
-              <p>Make sure you download the correct app - look for the purple logo with a lightning bolt icon.</p>
-              <p class="tip-note">
-                💡 Thndr is mobile-only. There's no desktop version, but the app is designed to be easy to use on your
-                phone.
-              </p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-num">2</div>
-            <div class="step-content">
-              <h3>Sign up and verify your identity</h3>
-              <p>Open the app and tap "Sign Up." You'll need to provide:</p>
-              <ul>
-                <li>• Your full name (as it appears on your National ID)</li>
-                <li>• Mobile phone number</li>
-                <li>• Email address</li>
-                <li>• National ID number</li>
-              </ul>
-              <p>
-                Next, you'll take a selfie and upload photos of the front and back of your National ID. This is required
-                by Egyptian law for Know Your Customer (KYC) verification.
-              </p>
-              <p>
-                Thndr uses AI to verify your identity instantly. The process typically takes 1–2 minutes. Once approved,
-                you'll receive a confirmation notification.
-              </p>
-              <p class="tip-note">
-                💡 Make sure your ID is valid and not expired. Thndr is regulated by the Financial Regulatory Authority
-                (FRA), so verification is mandatory.
-              </p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-num">3</div>
-            <div class="step-content">
-              <h3>Add money to your Thndr wallet</h3>
-              <p>To start investing, you need to deposit funds into your Thndr wallet. You can do this through:</p>
-              <ul>
-                <li>
-                  • <strong>Bank transfer:</strong> Transfer from your Egyptian bank account using the account details
-                  provided in the app
-                </li>
-                <li>• <strong>Mobile wallet:</strong> Use Vodafone Cash, Fawry, or other mobile wallets</li>
-                <li>
-                  • <strong>Credit/Debit card:</strong> Instantly fund your account with any Egyptian or international
-                  card
-                </li>
-              </ul>
-              <p>
-                The minimum deposit is EGP 1, but most payment methods have a minimum of around EGP 50–100 due to
-                processing fees.
-              </p>
-              <p>
-                Deposits via bank transfer usually take a few hours to appear. Card and wallet deposits are instant.
-              </p>
-              <p class="tip-note">
-                💡 Start small if you're a beginner. You can always add more funds later as you get comfortable.
-              </p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-num">4</div>
-            <div class="step-content">
-              <h3>Explore stocks and do your research</h3>
-              <p>Browse the list of Egyptian Exchange (EGX) stocks available on Thndr. You can:</p>
-              <ul>
-                <li>• View real-time stock prices and daily price changes</li>
-                <li>• See historical price charts (1 day, 1 week, 1 month, 1 year, all time)</li>
-                <li>• Read company profiles and financial data</li>
-                <li>• Explore curated stock collections like "Top Gainers," "Most Active," or "Blue Chips"</li>
-              </ul>
-              <p>
-                Thndr also provides educational content and news updates about companies to help you make informed
-                decisions.
-              </p>
-              <p class="tip-note">
-                💡 Don't invest in something you don't understand. Use Thndr's educational resources to learn about
-                different companies and industries first.
-              </p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-num">5</div>
-            <div class="step-content">
-              <h3>Place your first trade</h3>
-              <p>When you're ready to buy a stock:</p>
-              <ul>
-                <li>1. Tap on the stock you want to buy</li>
-                <li>2. Tap the "Buy" button</li>
-                <li>
-                  3. Enter the number of shares you want OR the total amount you want to invest (Thndr calculates the
-                  shares for you)
-                </li>
-                <li>4. Review the order summary showing the total cost</li>
-                <li>5. Confirm the order</li>
-              </ul>
-              <p>
-                Your order is sent to the Egyptian Exchange immediately. If the stock is available at that price, the
-                trade executes instantly during market hours (Sunday–Thursday, 10 AM – 2:30 PM).
-              </p>
-              <p>
-                The stocks you buy appear in your "Portfolio" section, where you can track their performance in real
-                time.
-              </p>
-              <p class="tip-note">
-                💡 Start with a small amount on your first trade to get familiar with how the process works. You can
-                always buy more later.
-              </p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-num">6</div>
-            <div class="step-content">
-              <h3>Monitor and sell when ready</h3>
-              <p>Track your investments in the Portfolio tab. You'll see:</p>
-              <ul>
-                <li>• Current value of each stock you own</li>
-                <li>• Total profit or loss (in EGP and percentage)</li>
-                <li>• Daily price changes</li>
-              </ul>
-              <p>
-                When you want to sell, tap the stock, then tap "Sell," enter the number of shares, and confirm. The sale
-                is processed instantly, and funds are added to your Thndr wallet.
-              </p>
-              <p>You can withdraw money from your wallet to your bank account anytime through the app.</p>
-              <p class="tip-note">
-                💡 Investing is a long-term strategy. Avoid panicking when prices drop temporarily. Focus on the
-                company's fundamentals and your investment goals.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Pro Tips -->
-      <div class="pro-tips-box">
-        <div class="pro-tips-header">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#16a34a"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-            <polyline points="22 4 12 14.01 9 11.01" />
-          </svg>
-          <h2>Pro Tips</h2>
-        </div>
-        <div class="pro-tips-list">
-          <div class="pro-tip-item">
-            <span class="pro-tip-dot">•</span>
-            <span>Start small and diversify across multiple stocks to reduce risk</span>
-          </div>
-          <div class="pro-tip-item">
-            <span class="pro-tip-dot">•</span>
-            <span>Trading is only available during EGX market hours (Sunday–Thursday, 10 AM – 2:30 PM)</span>
-          </div>
-          <div class="pro-tip-item">
-            <span class="pro-tip-dot">•</span>
-            <span>Use Thndr's educational content to learn about investing before you start</span>
-          </div>
-          <div class="pro-tip-item">
-            <span class="pro-tip-dot">•</span>
-            <span
-              >Monitor your portfolio regularly but avoid making emotional decisions based on short-term movements</span
-            >
-          </div>
-          <div class="pro-tip-item">
-            <span class="pro-tip-dot">•</span>
-            <span>Thndr offers fractional shares for some stocks, allowing you to invest any amount</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Warning -->
-      <div class="content-section">
-      <div class="warning-box">
-        <div class="warning-inner">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#ea580c"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <line x1="12" y1="8" x2="12" y2="12" />
-            <line x1="12" y1="16" x2="12.01" y2="16" />
-          </svg>
-          <div>
-            <h3>Important Warning</h3>
-            <p>
-              Investing in stocks carries risk. Stock prices can go up or down, and you may lose some or all of your
-              invested capital. Never invest money you can't afford to lose or money you need for essential expenses.
-            </p>
-            <p>
-              Always do your own research before buying any stock. Understand the company, its business model, and
-              financial health. Past performance does not guarantee future results.
-            </p>
           </div>
         </div>
       </div>
@@ -486,23 +496,26 @@
       <div class="container">
         <div class="footer-grid">
           <div>
-            <div class="footer-brand">Finova</div>
+            <div class="brand">
+              <img src="./Finova.png" alt="Finova" width="24" />
+              <a href="./index.html">Finova</a>
+            </div>
             <p class="footer-desc">Your trusted partner in financial planning.</p>
           </div>
           <div>
             <h4>Services</h4>
             <div class="footer-links">
-              <a href="../investment-tools.html">Investment Tools</a>
-              <a href="../digital-platforms.html">Digital Platforms</a>
-              <a href="../investment-tips.html">Investment Tips</a>
+              <a href="./investment-tools.html">Investment Tools</a>
+              <a href="./digital-platforms.html">Digital Platforms</a>
+              <a href="./investment-tips.html">Investment Tips</a>
             </div>
           </div>
           <div>
             <h4>Company</h4>
             <div class="footer-links">
-              <a href="../index.html#about">About Us</a>
-              <a href="../index.html#services">Our Services</a>
-              <a href="../index.html#team">Our Team</a>
+              <a href="./index.html#about">About Us</a>
+              <a href="./index.html#services">Our Services</a>
+              <a href="./index.html#team">Our Team</a>
             </div>
           </div>
         </div>

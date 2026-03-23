@@ -3,22 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <title>Finova</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar">
       <div class="container">
-        <a href="./index.html" class="nav-brand">Finova</a>
+        <div class="brand">
+          <img src="./Finova.png" alt="Finova" width="24" />
+          <a href="./index.html">Finova</a>
+        </div>
         <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
           <span></span>
           <span></span>
           <span></span>
         </button>
         <div class="nav-links">
-          <a href="#home" class="nav-link active">Home</a>
+          <a href="#home" class="nav-link">Home</a>
           <a href="#about" class="nav-link">About Us</a>
           <a href="#services" class="nav-link">Our Services</a>
           <a href="#team" class="nav-link">Our Team</a>
@@ -51,24 +54,15 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-      <div class="hero-bg">
-        <img
-          src="https://images.unsplash.com/photo-1762758731214-8075cb753b34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBjaXR5JTIwc2t5bGluZSUyMG1vZGVybiUyMHdlYWx0aHxlbnwxfHx8fDE3NzMxNjM3Njd8MA&ixlib=rb-4.1.0&q=80&w=1080"
-          alt="Financial city skyline"
-        />
-      </div>
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <div class="container">
-          <div class="hero-inner">
-            <p class="hero-eyebrow">Welcome to Finova</p>
-            <h2>Get Started<br />on Your Financial<br />Journey</h2>
-            <p class="hero-description">
-              Begin your financial planning journey with our expert guidance and innovative tools designed to help you
-              achieve your financial goals with confidence.
-            </p>
-            <a href="#services" class="btn-outline-white">Explore Services</a>
-          </div>
+      <div class="container">
+        <div class="hero-inner">
+          <p class="hero-eyebrow">Welcome to Finova</p>
+          <h2>Get Started<br />on Your Financial<br />Journey</h2>
+          <p class="hero-description">
+            Begin your financial planning journey with our expert guidance and innovative tools designed to help you
+            achieve your financial goals with confidence.
+          </p>
+          <a href="#services" class="hero-btn">Explore Services</a>
         </div>
       </div>
     </section>
@@ -241,7 +235,7 @@
     <!-- Team Hero -->
     <section class="team-hero" id="team">
       <div class="container">
-        <h1>Meet Our Team</h1>
+        <h2 class="section-title">Meet Our Team</h2>
         <p>
           Our team of dedicated professionals brings decades of experience in financial planning, investment management,
           and digital innovation to help you achieve your goals.
@@ -249,8 +243,8 @@
       </div>
     </section>
 
-    <!-- Team Members -->
     <section class="section--white">
+    <!-- Team Members -->
       <div class="container">
         <div class="team-members">
           <!-- Alex Johnson -->
@@ -316,7 +310,10 @@
       <div class="container">
         <div class="footer-grid">
           <div>
-            <div class="footer-brand">Finova</div>
+            <div class="brand">
+              <img src="./Finova.png" alt="Finova" width="24" />
+              <a href="./index.html">Finova</a>
+            </div>
             <p class="footer-desc">Your trusted partner in financial planning.</p>
           </div>
           <div>
