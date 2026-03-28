@@ -440,7 +440,8 @@ h4 {
   min-height: 100dvh;
   display: flex;
   align-items: center;
-  background-image: url(./images/hero2);
+  background:
+    linear-gradient(to right, centere 30%, transparent 35%, transparent 65%, centere 70%), url(./images/hero2);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -639,45 +640,52 @@ h4 {
 .page-header .platform-img-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
 }
 
 .page-header-primary {
   background: var(--primary);
 }
 .page-header-instapay {
-  background: #2563eb;
-  background-image: url(./images/instapay.avif);
+  background: #4c086e;
+  background:
+    linear-gradient(to right, #4c086e 30%, transparent 35%, transparent 65%, #4c086e 70%), url(./images/instapay.avif);
   background-position: center;
   background-size: contain;
 }
 .page-header-fawry {
-  background: #f97316;
-  background-image: url(./images/fawry.avif);
+  background: #ffd501;
+  background:
+    linear-gradient(to right, #ffd501 30%, transparent 35%, transparent 65%, #ffd501 70%), url(./images/fawry.avif);
   background-position: center;
   background-size: contain;
 }
 .page-header-vfcash {
-  background: #dc2626;
-  background-image: url(./images/vodafone-cash.avif);
+  background: #ef1e28;
+  background:
+    linear-gradient(to right, #ef1e28 30%, transparent 35%, transparent 65%, #ef1e28 70%),
+    url(./images/vodafone-cash.avif);
   background-position: center;
   background-size: contain;
 }
 .page-header-meeza {
-  background: #16a34a;
-  background-image: url(./images/meeza.avif);
+  background: #fff;
+  background: linear-gradient(to right, #fff 30%, transparent 35%, transparent 65%, #fff 70%), url(./images/meeza.avif);
   background-position: center;
   background-size: contain;
 }
 .page-header-thndr {
-  background: #9333ea;
-  background-image: url(./images/thndr.avif);
+  background: #ffff01;
+  background:
+    linear-gradient(to right, #ffff01 30%, transparent 35%, transparent 65%, #ffff01 70%), url(./images/thndr.avif);
   background-position: center;
   background-size: contain;
 }
 .page-header-bm {
-  background: #0369a1;
-  background-image: url(./images/banque-misr.avif);
+  background: #8b192f;
+  background:
+    linear-gradient(to right, #8b192f 30%, transparent 35%, transparent 65%, #8b192f 70%),
+    url(./images/banque-misr.avif);
   background-position: center;
   background-size: contain;
 }
